@@ -176,39 +176,6 @@ a:focus-visible {
   font-weight: 600;
 }
 
-.theme-switcher {
-  display: none;
-  align-items: center;
-  gap: 0.35rem;
-  margin-left: auto;
-}
-
-.theme-label {
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--ink-soft);
-  font-weight: 700;
-}
-
-.theme-option {
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--ink-soft);
-  padding: 0.32rem 0.62rem;
-  font-size: 0.76rem;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.theme-option.is-active,
-.theme-option:hover,
-.theme-option:focus-visible {
-  border-color: var(--primary);
-  color: var(--primary-strong);
-}
-
 .site-nav {
   position: absolute;
   top: 100%;
@@ -442,10 +409,6 @@ summary {
 }
 
 @media (min-width: 860px) {
-  .theme-switcher {
-    display: inline-flex;
-  }
-
   .menu-toggle {
     margin-right: 0.55rem;
     flex-wrap: wrap;
