@@ -213,6 +213,73 @@ a:focus-visible {
   display: grid;
 }
 
+/* Navigation groups with dropdown support */
+.nav-group {
+  position: relative;
+}
+
+.nav-toggle {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--ink-soft);
+  border-left: 3px solid transparent;
+  padding-left: 0.45rem;
+}
+
+.nav-toggle:hover,
+.nav-toggle:focus-visible {
+  color: var(--primary-strong);
+  border-left-color: var(--accent);
+}
+
+.nav-group:hover .nav-toggle,
+.nav-group:focus-within .nav-toggle {
+  color: var(--primary-strong);
+  border-left-color: var(--accent);
+}
+
+.nav-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0 0 var(--radius) var(--radius);
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  min-width: 160px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  z-index: 100;
+}
+
+.nav-group:hover .nav-submenu,
+.nav-group:focus-within .nav-submenu {
+  display: block;
+}
+
+.nav-submenu li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-submenu a {
+  display: block;
+  text-decoration: none;
+  color: var(--ink-soft);
+  padding: 0.45rem 1rem;
+  font-size: 0.95rem;
+  border-left: 3px solid transparent;
+}
+
+.nav-submenu a:hover,
+.nav-submenu a:focus-visible {
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  color: var(--primary-strong);
+  border-left-color: var(--accent);
+}
+
 .hero {
   padding: clamp(2rem, 5vw, 4rem) 0;
   background:
@@ -470,6 +537,61 @@ summary {
   .site-nav a.active {
     border-bottom-color: var(--accent);
     border-left-color: transparent;
+  }
+
+  /* Desktop dropdown navigation */
+  .nav-group {
+    position: relative;
+  }
+
+  .nav-toggle {
+    border-left: none;
+    border-bottom: 2px solid transparent;
+    padding-left: 0;
+    padding-bottom: 0.25rem;
+  }
+
+  .nav-toggle:hover,
+  .nav-toggle:focus-visible {
+    border-bottom-color: var(--accent);
+    border-left-color: transparent;
+  }
+
+  .nav-group:hover .nav-toggle,
+  .nav-group:focus-within .nav-toggle {
+    border-bottom-color: var(--accent);
+  }
+
+  .nav-submenu {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    display: none;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    min-width: 160px;
+    box-shadow: var(--shadow);
+  }
+
+  .nav-group:hover .nav-submenu,
+  .nav-group:focus-within .nav-submenu {
+    display: block;
+  }
+
+  .nav-submenu a {
+    border-left: 3px solid transparent;
+    padding: 0.45rem 1rem;
+    border-bottom: none;
+  }
+
+  .nav-submenu a:hover,
+  .nav-submenu a:focus-visible {
+    border-left-color: var(--accent);
+    border-bottom: none;
   }
 
   .hero-grid {

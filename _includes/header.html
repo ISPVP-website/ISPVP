@@ -12,15 +12,40 @@
 
     <nav id="primary-nav" class="site-nav" aria-label="Primary">
       <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/committee/' | relative_url }}">Committee</a>
-      <a href="{{ '/program/' | relative_url }}">Program</a>
-      <a href="{{ '/speakers/' | relative_url }}">Speakers</a>
-      <a href="{{ '/registration/' | relative_url }}">Registration</a>
-      <a href="{{ '/abstracts/' | relative_url }}">Abstracts</a>
-      <a href="{{ '/travel/' | relative_url }}">Travel</a>
-      <a href="{{ '/venue/' | relative_url }}">Venue</a>
-      <a href="{{ '/archive/' | relative_url }}">Archive</a>
+      
+      <div class="nav-group">
+        <a href="{{ '/about/' | relative_url }}" class="nav-toggle">About</a>
+        <ul class="nav-submenu">
+          <li><a href="{{ '/about/' | relative_url }}">About ISPVP</a></li>
+          <li><a href="{{ '/committee/' | relative_url }}">Committee</a></li>
+          <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-group">
+        <a href="{{ '/program/' | relative_url }}" class="nav-toggle">Program</a>
+        <ul class="nav-submenu">
+          <li><a href="{{ '/program/' | relative_url }}">Scientific Sessions</a></li>
+          <li><a href="{{ '/speakers/' | relative_url }}">Speakers</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-group">
+        <a href="{{ '/registration/' | relative_url }}" class="nav-toggle">Participate</a>
+        <ul class="nav-submenu">
+          <li><a href="{{ '/registration/' | relative_url }}">Registration</a></li>
+          <li><a href="{{ '/abstracts/' | relative_url }}">Submit Abstract</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-group">
+        <a href="{{ '/travel/' | relative_url }}" class="nav-toggle">Logistics</a>
+        <ul class="nav-submenu">
+          <li><a href="{{ '/travel/' | relative_url }}">Travel</a></li>
+          <li><a href="{{ '/venue/' | relative_url }}">Venue</a></li>
+        </ul>
+      </div>
+
       <a href="{{ '/news/' | relative_url }}">News</a>
       <a href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
