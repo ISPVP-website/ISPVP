@@ -18,3 +18,4 @@ defaults:
 exclude:
   - "ISCHPP - Citrus Research and Education Center (CREC) - University of Florida, Institute of Food and .html"
   - "3rd ISPVP Meeting Program-Organization committee meeting Notes-27March2026.docx"
+  - vendor/
