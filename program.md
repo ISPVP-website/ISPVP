@@ -27,10 +27,10 @@ hero_text: A seven-session framework with invited and selected talks aligned to 
 ## Preliminary Week Structure
 
 <ul class="timeline">
-  <li><strong><span class="date">Tuesday, October 20, 2026</span></strong> — Arrival and registration.</li>
-  <li><strong><span class="date">Wednesday, October 21, 2026</span></strong> — Meeting day 1 and poster session.</li>
-  <li><strong><span class="date">Thursday, October 22, 2026</span></strong> — Meeting day 2 and poster session.</li>
-  <li><strong><span class="date">Friday, October 23, 2026</span></strong> — Meeting day 3 and closing activities.</li>
+  <li><strong><span class="date">Tuesday, October 20, 2026</span></strong><br>Arrival and registration.</li>
+  <li><strong><span class="date">Wednesday, October 21, 2026</span></strong><br>Meeting day 1 and poster session.</li>
+  <li><strong><span class="date">Thursday, October 22, 2026</span></strong><br>Meeting day 2 and poster session.</li>
+  <li><strong><span class="date">Friday, October 23, 2026</span></strong><br>Meeting day 3 and closing activities.</li>
 </ul>
 
 <p><a class="button secondary" href="{{ '/archive/' | relative_url }}">View Program Resources</a></p>
