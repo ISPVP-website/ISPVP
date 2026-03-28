@@ -41,9 +41,9 @@ hero_text: Submit original research for oral or poster consideration aligned wit
 ## Submission Deadlines
 
 <ul class="timeline">
-  <li><strong>May 1-Aug 1, 2026:</strong> Early bird registration and abstract submission.</li>
-  <li><strong>Aug 2-Aug 23, 2026:</strong> General registration and abstract submission.</li>
-  <li><strong>Aug 24-Sep 25, 2026:</strong> Late registration and poster abstract submission only.</li>
+  <li><strong><span class="date">May 1–August 1, 2026</span>:</strong> Early bird registration and abstract submission.</li>
+  <li><strong><span class="date">August 2–23, 2026</span>:</strong> General registration and abstract submission.</li>
+  <li><strong><span class="date">August 24–September 25, 2026</span>:</strong> Late registration and poster abstract submission only.</li>
 </ul>
 
 <p>

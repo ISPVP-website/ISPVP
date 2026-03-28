@@ -19,9 +19,9 @@ hero_text: ISPVP registration workflow is designed for static-hosted reliability
       </tr>
     </thead>
     <tbody>
-      <tr><td>Early Bird + Abstract Submission</td><td>May 1-Aug 1, 2026</td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
-      <tr><td>General + Abstract Submission</td><td>Aug 2-Aug 23, 2026</td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
-      <tr><td>Late Registration + Poster Abstracts Only</td><td>Aug 24-Sep 25, 2026</td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
+      <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 1–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
+      <tr><td>General + Abstract Submission</td><td><span class="date">August 2–23, 2026</span></td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
+      <tr><td>Late Registration + Poster Abstracts Only</td><td><span class="date">August 24–September 25, 2026</span></td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
     </tbody>
   </table>
 </div>
@@ -36,10 +36,10 @@ hero_text: ISPVP registration workflow is designed for static-hosted reliability
 
 ## 2026 Venue Window
 
-- Arrival and registration: Tuesday, Oct 20, 2026
-- Meeting day 1: Wednesday, Oct 21, 2026
-- Meeting day 2: Thursday, Oct 22, 2026
-- Meeting day 3: Friday, Oct 23, 2026
+- Arrival and registration: <span class="date">Tuesday, October 20, 2026</span>
+- Meeting day 1: <span class="date">Wednesday, October 21, 2026</span>
+- Meeting day 2: <span class="date">Thursday, October 22, 2026</span>
+- Meeting day 3: <span class="date">Friday, October 23, 2026</span>
 
 ## What Registration Includes
 

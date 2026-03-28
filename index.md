@@ -6,7 +6,7 @@ title: ISPVP 2026
   <div class="container hero-grid">
     <div>
       <p class="eyebrow">Next Congress</p>
-      <h2>3rd ISPVP | October 20-23, 2026 | South Padre Island, Texas</h2>
+      <h2>3rd ISPVP | <span class="date">October 20–23, 2026</span> | South Padre Island, Texas</h2>
       <p class="lead">The symposium will unite researchers, extension scientists, and industry leaders to confront endemic and emerging plant vascular pathogens, insect vectors, and diseases together.</p>
       <div class="hero-cta">
         <a class="button primary" href="{{ '/registration/' | relative_url }}">Register Interest</a>
@@ -16,10 +16,10 @@ title: ISPVP 2026
     <aside class="panel">
       <p><span class="badge">Important Dates</span></p>
       <ul>
-        <li>Early registration + abstracts: May 1-Aug 1, 2026</li>
-        <li>General registration + abstracts: Aug 2-Aug 23, 2026</li>
-        <li>Late registration + poster-only abstracts: Aug 24-Sep 25, 2026</li>
-        <li>Symposium dates: Oct 20-23, 2026</li>
+        <li>Early registration + abstracts: <span class="date">May 1–August 1, 2026</span></li>
+        <li>General registration + abstracts: <span class="date">August 2–23, 2026</span></li>
+        <li>Late registration + poster-only abstracts: <span class="date">August 24–September 25, 2026</span></li>
+        <li>Symposium dates: <span class="date">October 20–23, 2026</span></li>
       </ul>
     </aside>
   </div>

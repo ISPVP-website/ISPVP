@@ -428,6 +428,19 @@ summary {
   color: #42606a;
 }
 
+/* Date styling for consistent, prominent dates */
+.date {
+  font-weight: 700;
+  color: var(--primary-strong);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  display: inline-block;
+  font-family: "Source Serif 4", Georgia, serif;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 @media (min-width: 860px) {
   .theme-switcher {
     display: inline-flex;
