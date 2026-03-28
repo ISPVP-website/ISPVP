@@ -434,23 +434,37 @@ summary {
   }
 
   .menu-toggle {
+    margin-right: 0.55rem;
+    flex-wrap: wrap;
     display: none;
   }
 
   .site-nav {
     position: static;
+  }
+
+  body[data-theme="coastal"] .brand-mark {
+    background: linear-gradient(145deg, #1f4f7a, #3d7eb1);
+  }
+
+  body[data-theme="coastal"] .card {
+    border-top-color: rgba(31, 79, 122, 0.32);
     display: flex;
     margin-left: auto;
     flex-wrap: wrap;
     justify-content: flex-end;
     border: 0;
+  }
+
+  body[data-theme="monograph"] .brand-mark {
+    background: linear-gradient(145deg, #594331, #89674d);
+  }
+
+  body[data-theme="monograph"] .card {
+    border-top-color: rgba(89, 67, 49, 0.36);
     box-shadow: none;
     background: transparent;
     padding: 0;
-    gap: 0.7rem;
-  }
-
-  .site-nav a {
     border-left: 0;
     border-bottom: 2px solid transparent;
     padding: 0.25rem 0;
