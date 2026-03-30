@@ -22,6 +22,17 @@ async function readRawBody(req) {
 }
 
 async function postToAppsScript(payload) {
+  const webhookUrl = process.env.APPS_SCRIPT_WEBHOOK_URL || '';
+  const missingOrPlaceholder =
+    !webhookUrl ||
+    webhookUrl.includes('DEPLOYMENT_ID') ||
+    webhookUrl.includes('YOUR_DEPLOYMENT_ID');
+
+  if (missingOrPlaceholder) {
+    // Allow Stripe webhook handling to succeed until Apps Script is configured.
+    return;
+  }
+
   const response = await fetch(process.env.APPS_SCRIPT_WEBHOOK_URL, {
     method: 'POST',
     headers: {
