@@ -53,6 +53,14 @@ title: ISPVP 2026
         <img src="{{ '/assets/images/home-slideshow/boardwalk.jpg' | relative_url }}" alt="Boardwalk at South Padre Island Birding Center">
         <figcaption>South Padre Boardwalk</figcaption>
       </figure>
+      <figure class="slide" data-slide>
+        <img src="{{ '/assets/images/home-slideshow/bay.jpg' | relative_url }}" alt="South Padre Island bay view">
+        <figcaption>South Padre Bay</figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img src="{{ '/assets/images/home-slideshow/city-skyline.jpg' | relative_url }}" alt="South Padre Island skyline with palms">
+        <figcaption>South Padre Skyline</figcaption>
+      </figure>
     </div>
 
     <button class="slide-control prev" type="button" aria-label="Previous slide" data-slide-prev>Previous</button>
@@ -67,7 +75,9 @@ title: ISPVP 2026
     <a href="https://commons.wikimedia.org/wiki/File:South_Padre_Island_Beach_(51092851998).jpg" target="_blank" rel="noopener noreferrer">Beach</a>,
     <a href="https://commons.wikimedia.org/wiki/File:Sunset_on_South_Padre_Island,_Texas_October_12,_2022_4.jpg" target="_blank" rel="noopener noreferrer">Sunset</a>,
     <a href="https://commons.wikimedia.org/wiki/File:Causeway_to_South_Padre_(51102491670).jpg" target="_blank" rel="noopener noreferrer">Causeway</a>,
-    <a href="https://commons.wikimedia.org/wiki/File:Boardwalk,_South_Padre_Island_Birding_Center.jpg" target="_blank" rel="noopener noreferrer">Boardwalk</a>.
+    <a href="https://commons.wikimedia.org/wiki/File:Boardwalk,_South_Padre_Island_Birding_Center.jpg" target="_blank" rel="noopener noreferrer">Boardwalk</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:South_Padre_Island_Bay.jpg" target="_blank" rel="noopener noreferrer">Bay</a>,
+    <a href="https://commons.wikimedia.org/wiki/File:City_of_spi,_palms_and_skyline.jpg" target="_blank" rel="noopener noreferrer">Skyline</a>.
   </p>
 </section>
 
