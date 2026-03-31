@@ -23,6 +23,35 @@ const PRICE_MAP = {
 
 const DONATION_PRICE_ID = process.env.STRIPE_PRICE_DONATION || '';
 
+function toUtcDate(year, month, day) {
+  return new Date(Date.UTC(year, month - 1, day));
+}
+
+function getCurrentPricingWindow() {
+  const now = new Date();
+  const todayUtc = toUtcDate(now.getUTCFullYear(), now.getUTCMonth() + 1, now.getUTCDate());
+
+  const generalStart = toUtcDate(2026, 8, 2);
+  const generalEnd = toUtcDate(2026, 8, 23);
+  const lateStart = toUtcDate(2026, 8, 24);
+  const lateEnd = toUtcDate(2026, 9, 25);
+
+  // Early bird is intentionally available now until general registration opens.
+  if (todayUtc < generalStart) {
+    return 'early';
+  }
+
+  if (todayUtc >= generalStart && todayUtc <= generalEnd) {
+    return 'general';
+  }
+
+  if (todayUtc >= lateStart && todayUtc <= lateEnd) {
+    return 'late';
+  }
+
+  return '';
+}
+
 function sendJson(res, status, payload) {
   res.statusCode = status;
   res.setHeader('Content-Type', 'application/json');
@@ -79,6 +108,23 @@ export default async function handler(req, res) {
       return;
     }
 
+    if (!isDonation) {
+      const activeWindow = getCurrentPricingWindow();
+      if (!activeWindow) {
+        sendJson(res, 400, {
+          error: 'Registration is currently closed. Please check the registration schedule.'
+        });
+        return;
+      }
+
+      if (pricingWindow !== activeWindow) {
+        sendJson(res, 400, {
+          error: `Only ${activeWindow} pricing is currently available.`
+        });
+        return;
+      }
+    }
+
     const priceId = isDonation ? DONATION_PRICE_ID : getPriceId(pricingWindow, ticketType);
     if (!priceId) {
       sendJson(res, 400, { error: 'No configured Stripe price for this selection.' });
@@ -86,18 +132,22 @@ export default async function handler(req, res) {
     }
 
     const abstractToken = isDonation ? '' : crypto.randomBytes(16).toString('hex');
+    const successPath = isDonation ? '/payment-success-donation/' : '/payment-success/';
 
     const session = await stripe.checkout.sessions.create({
       mode: 'payment',
       payment_method_types: ['card'],
       customer_email: email,
+      payment_intent_data: {
+        receipt_email: email
+      },
       line_items: [
         {
           price: priceId,
           quantity: 1
         }
       ],
-      success_url: `${process.env.FRONTEND_URL}/payment-success/?session_id={CHECKOUT_SESSION_ID}`,
+      success_url: `${process.env.FRONTEND_URL}${successPath}?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: `${process.env.FRONTEND_URL}/payment-cancelled/`,
       metadata: {
         checkoutType: isDonation ? 'donation' : 'registration',
