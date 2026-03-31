@@ -85,37 +85,13 @@ hero_text: Complete registration and payment below. After successful payment, th
   </form>
 </section>
 
-<section class="card registration-flow" aria-label="Fundraising and donations">
-  <h2>Fundraising Support</h2>
-  <p class="small">
-    Support ISPVP student travel awards and outreach through a secure Stripe donation checkout.
-  </p>
+<div class="callout">
+  <strong>Fundraising has moved:</strong> The donation checkout is now in a dedicated section.
+</div>
 
-  <form id="fundraising-form" data-donation-form>
-    <div class="form-grid two-col">
-      <div>
-        <label for="donorName">Full Name</label>
-        <input id="donorName" name="donorName" type="text" required>
-      </div>
-      <div>
-        <label for="donorEmail">Email</label>
-        <input id="donorEmail" name="donorEmail" type="email" required>
-      </div>
-    </div>
-
-    <div class="form-grid">
-      <div>
-        <label for="donorAffiliation">Affiliation / Institution (optional)</label>
-        <input id="donorAffiliation" name="donorAffiliation" type="text" placeholder="ISPVP supporter">
-      </div>
-    </div>
-
-    <button class="button" type="submit" data-donation-submit>
-      Donate Via Secure Checkout
-    </button>
-    <p class="small" id="donation-message" aria-live="polite"></p>
-  </form>
-</section>
+<p>
+  <a class="button" href="{{ '/fundraising/' | relative_url }}">Go To Fundraising Support</a>
+</p>
 
 ## Optional Additional Details Form
 

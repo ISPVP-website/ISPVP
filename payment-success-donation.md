@@ -19,5 +19,5 @@ hero_text: Your fundraising payment has been received and is being verified.
 </div>
 
 <p>
-  <a class="button secondary" href="{{ '/registration/' | relative_url }}">Back To Registration</a>
+  <a class="button secondary" href="{{ '/fundraising/' | relative_url }}">Back To Fundraising</a>
 </p>
