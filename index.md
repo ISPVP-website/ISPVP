@@ -104,6 +104,38 @@ title: ISPVP 2026
   </article>
 </div>
 
+## Pathosystem Image Highlights
+
+<section class="photo-gallery" aria-label="Open-license plant vascular pathosystem images">
+  <figure class="photo-card">
+    <a href="https://commons.wikimedia.org/wiki/File:OleanderLeafScorch.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/OleanderLeafScorch.jpg" alt="Oleander infected with Xylella fastidiosa showing leaf scorch symptoms">
+    </a>
+    <figcaption>Oleander leaf scorch associated with <em>Xylella fastidiosa</em>.</figcaption>
+  </figure>
+
+  <figure class="photo-card">
+    <a href="https://commons.wikimedia.org/wiki/File:Olivenhain_mit_Xylella_fastidiosa_bei_Surano_LE_190710.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Olivenhain_mit_Xylella_fastidiosa_bei_Surano_LE_190710.jpg" alt="Olive grove in Puglia with trees affected by Xylella fastidiosa">
+    </a>
+    <figcaption>Olive quick decline context in Apulia linked to <em>Xylella fastidiosa</em>.</figcaption>
+  </figure>
+
+  <figure class="photo-card">
+    <a href="https://commons.wikimedia.org/wiki/File:Citrus_psyllid,_adult,_side,_recently_emerged,_Ft._Detrick_2014-05-01-09.08.52_ZS_PMax_(15420994972).jpg" target="_blank" rel="noopener noreferrer">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Citrus_psyllid,_adult,_side,_recently_emerged,_Ft._Detrick_2014-05-01-09.08.52_ZS_PMax_(15420994972).jpg" alt="Adult Asian citrus psyllid, a major vector in the citrus Huanglongbing pathosystem">
+    </a>
+    <figcaption>Asian citrus psyllid (<em>Diaphorina citri</em>), a key HLB vector.</figcaption>
+  </figure>
+</section>
+
+<p class="small">
+  Open-license images from Wikimedia Commons:
+  <a href="https://commons.wikimedia.org/wiki/File:OleanderLeafScorch.jpg" target="_blank" rel="noopener noreferrer">Oleander leaf scorch</a>,
+  <a href="https://commons.wikimedia.org/wiki/File:Olivenhain_mit_Xylella_fastidiosa_bei_Surano_LE_190710.jpg" target="_blank" rel="noopener noreferrer">Olive grove and Xylella fastidiosa</a>,
+  <a href="https://commons.wikimedia.org/wiki/File:Citrus_psyllid,_adult,_side,_recently_emerged,_Ft._Detrick_2014-05-01-09.08.52_ZS_PMax_(15420994972).jpg" target="_blank" rel="noopener noreferrer">Asian citrus psyllid</a>.
+</p>
+
 ## Why ISPVP
 
 <div class="callout">
