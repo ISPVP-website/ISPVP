@@ -146,6 +146,52 @@ if (registrationForm || donationForm) {
       late: { regular: 550, research: 450, student: 350 }
     };
 
+    function toUtcDate(year, month, day) {
+      return new Date(Date.UTC(year, month - 1, day));
+    }
+
+    function getActivePricingWindow() {
+      const now = new Date();
+      const todayUtc = toUtcDate(now.getUTCFullYear(), now.getUTCMonth() + 1, now.getUTCDate());
+
+      const generalStart = toUtcDate(2026, 8, 2);
+      const generalEnd = toUtcDate(2026, 8, 23);
+      const lateStart = toUtcDate(2026, 8, 24);
+      const lateEnd = toUtcDate(2026, 9, 25);
+
+      // Early bird is intentionally available now until general opens.
+      if (todayUtc < generalStart) {
+        return 'early';
+      }
+
+      if (todayUtc >= generalStart && todayUtc <= generalEnd) {
+        return 'general';
+      }
+
+      if (todayUtc >= lateStart && todayUtc <= lateEnd) {
+        return 'late';
+      }
+
+      return '';
+    }
+
+    function applyPricingWindowAvailability() {
+      const activeWindow = getActivePricingWindow();
+      const windowOptions = Array.from(pricingWindow?.options || []);
+
+      windowOptions.forEach((option) => {
+        option.disabled = Boolean(activeWindow) && option.value !== activeWindow;
+      });
+
+      if (activeWindow && pricingWindow) {
+        pricingWindow.value = activeWindow;
+      }
+
+      if (!activeWindow && message) {
+        message.textContent = 'Registration is currently closed. Please check the registration schedule.';
+      }
+    }
+
     function updateFeePreview() {
       const ticket = ticketType?.value || 'regular';
       const windowKey = pricingWindow?.value || 'early';
@@ -157,6 +203,7 @@ if (registrationForm || donationForm) {
 
     ticketType?.addEventListener('change', updateFeePreview);
     pricingWindow?.addEventListener('change', updateFeePreview);
+    applyPricingWindowAvailability();
     updateFeePreview();
 
     registrationForm.addEventListener('submit', async (event) => {
@@ -174,6 +221,13 @@ if (registrationForm || donationForm) {
       if (!payload.name || !payload.email || !payload.affiliation) {
         if (message) {
           message.textContent = 'Please complete all required fields.';
+        }
+        return;
+      }
+
+      if (!getActivePricingWindow()) {
+        if (message) {
+          message.textContent = 'Registration is currently closed. Please check the registration schedule.';
         }
         return;
       }
