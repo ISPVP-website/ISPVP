@@ -47,6 +47,21 @@ async function postToAppsScript(payload) {
   }
 }
 
+async function getPaymentReceiptUrl(paymentIntentId) {
+  if (!paymentIntentId) {
+    return '';
+  }
+
+  try {
+    const paymentIntent = await stripe.paymentIntents.retrieve(paymentIntentId, {
+      expand: ['latest_charge']
+    });
+    return paymentIntent?.latest_charge?.receipt_url || '';
+  } catch (_error) {
+    return '';
+  }
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     sendText(res, 405, 'Method not allowed');
@@ -67,23 +82,31 @@ export default async function handler(req, res) {
       const session = event.data.object;
 
       if (session.payment_status === 'paid') {
-        if (session.metadata?.checkoutType === 'donation') {
-          sendText(res, 200, 'ok');
-          return;
-        }
+        const checkoutType = session.metadata?.checkoutType === 'donation'
+          ? 'donation'
+          : 'registration';
+
+        const paymentIntentId =
+          typeof session.payment_intent === 'string'
+            ? session.payment_intent
+            : session.payment_intent?.id || '';
+        const paymentReceiptUrl = await getPaymentReceiptUrl(paymentIntentId);
 
         await postToAppsScript({
           secret: process.env.APPS_SCRIPT_SHARED_SECRET,
           eventType: event.type,
           eventId: event.id,
           sessionId: session.id,
-          paymentIntentId: session.payment_intent || '',
+          paymentIntentId,
+          paymentReceiptUrl,
           amountTotal: session.amount_total || 0,
           currency: session.currency || 'usd',
           paidAt: new Date().toISOString(),
+          checkoutType,
           name: session.metadata?.name || '',
           email: session.metadata?.email || session.customer_email || '',
           affiliation: session.metadata?.affiliation || '',
+          businessTitle: session.metadata?.businessTitle || '',
           ticketType: session.metadata?.ticketType || '',
           pricingWindow: session.metadata?.pricingWindow || '',
           abstractToken: session.metadata?.abstractToken || ''

@@ -20,9 +20,9 @@ if (nav) {
   });
 }
 
-const slideshow = document.querySelector('[data-slideshow]');
+const slideshows = Array.from(document.querySelectorAll('[data-slideshow]'));
 
-if (slideshow) {
+slideshows.forEach((slideshow) => {
   const slides = Array.from(slideshow.querySelectorAll('[data-slide]'));
   const dotsWrap = slideshow.querySelector('[data-slide-dots]');
   const prev = slideshow.querySelector('[data-slide-prev]');
@@ -83,7 +83,7 @@ if (slideshow) {
 
   render();
   startAuto();
-}
+});
 
 const registrationForm = document.querySelector('[data-checkout-form]');
 const donationForm = document.querySelector('[data-donation-form]');
@@ -214,11 +214,12 @@ if (registrationForm || donationForm) {
         name: document.getElementById('fullName')?.value?.trim() || '',
         email: document.getElementById('email')?.value?.trim() || '',
         affiliation: document.getElementById('affiliation')?.value?.trim() || '',
+        businessTitle: document.getElementById('businessTitle')?.value?.trim() || '',
         ticketType: ticketType?.value || 'regular',
         pricingWindow: pricingWindow?.value || 'early'
       };
 
-      if (!payload.name || !payload.email || !payload.affiliation) {
+      if (!payload.name || !payload.email || !payload.affiliation || !payload.businessTitle) {
         if (message) {
           message.textContent = 'Please complete all required fields.';
         }

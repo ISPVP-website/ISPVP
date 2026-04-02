@@ -11,18 +11,22 @@ ISPVP builds on prior conference strengths while expanding to broader plant vasc
 
 <div class="grid two">
   <article class="card">
-    <h3>ISCHPP 2022</h3>
-    <p>Legacy congress model with sessions on diagnostics, epidemiology, host-pathogen interactions, and disease management.</p>
+    <h3>ISCHPP 2023</h3>
+    <p>Clearwater Beach, Florida. Legacy congress model with sessions on diagnostics, epidemiology, host-pathogen interactions, and disease management.</p>
   </article>
   <article class="card">
-    <h3>ISPVP 2026 (Planned)</h3>
-    <p>Expanded scope with seven-session program architecture and international committee governance.</p>
+    <h3>ISPVP 2026 (Upcoming)</h3>
+    <p>South Padre Island, Texas. Expanded scope with seven-session program architecture and international committee governance.</p>
+  </article>
+  <article class="card">
+    <h3>ISPVP 2028 (Future Planning)</h3>
+    <p>Future congress planning is in progress, with host-site development and scientific framework updates underway.</p>
   </article>
 </div>
 
-## ISCHPP 2022 Photo Gallery
+## ISCHPP 2023 Photo Gallery
 
-<p>Selected photos from the 2022 IS-CHPP meeting are included below. Click any image to open full size.</p>
+<p>Selected photos from the 2023 ISCHPP meeting in Clearwater Beach, Florida are included below. Click any image to open full size.</p>
 
 <div class="photo-gallery">
   <figure class="photo-card">

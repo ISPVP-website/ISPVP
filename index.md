@@ -34,7 +34,7 @@ title: ISPVP 2026
   <div class="slideshow" data-slideshow>
     <div class="slides" data-slides>
       <figure class="slide is-active" data-slide>
-        <img src="{{ '/assets/images/home-slideshow/holiday-inn.jpg' | relative_url }}" alt="Holiday Inn Resort South Padre Island exterior view">
+        <img src="{{ '/Holiday Inn Resort.jpg' | relative_url }}" alt="Holiday Inn Resort South Padre Island exterior view">
         <figcaption>Holiday Inn Resort South Padre Island</figcaption>
       </figure>
       <figure class="slide" data-slide>
@@ -71,7 +71,6 @@ title: ISPVP 2026
 
   <p class="small">
     Photos from Wikimedia Commons (open licenses):
-    <a href="https://commons.wikimedia.org/wiki/File:South_Padre_Island_Holiday_Inn.jpg" target="_blank" rel="noopener noreferrer">Holiday Inn</a>,
     <a href="https://commons.wikimedia.org/wiki/File:South_Padre_Island_Beach_(51092851998).jpg" target="_blank" rel="noopener noreferrer">Beach</a>,
     <a href="https://commons.wikimedia.org/wiki/File:Sunset_on_South_Padre_Island,_Texas_October_12,_2022_4.jpg" target="_blank" rel="noopener noreferrer">Sunset</a>,
     <a href="https://commons.wikimedia.org/wiki/File:Causeway_to_South_Padre_(51102491670).jpg" target="_blank" rel="noopener noreferrer">Causeway</a>,
@@ -136,10 +135,38 @@ title: ISPVP 2026
   <a href="https://commons.wikimedia.org/wiki/File:Citrus_psyllid,_adult,_side,_recently_emerged,_Ft._Detrick_2014-05-01-09.08.52_ZS_PMax_(15420994972).jpg" target="_blank" rel="noopener noreferrer">Asian citrus psyllid</a>.
 </p>
 
-## Why ISPVP
+## 2023 Meeting Photo Gallery
+
+<section class="container venue-showcase" aria-label="ISCHPP 2023 photo slideshow">
+  <div class="slideshow" data-slideshow>
+    <div class="slides" data-slides>
+      <figure class="slide is-active" data-slide>
+        <img src="{{ '/assets/images/gallery/ischpp-2022/group1.jpg' | relative_url }}" alt="ISCHPP 2023 group photo">
+        <figcaption>ISCHPP 2023 Group Photo</figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img src="{{ '/assets/images/gallery/ischpp-2022/lt_group.jpg' | relative_url }}" alt="ISCHPP 2023 leadership group photo">
+        <figcaption>Leadership Group</figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img src="{{ '/assets/images/gallery/ischpp-2022/IMG_2733.jpg' | relative_url }}" alt="ISCHPP 2023 conference activity">
+        <figcaption>Conference Moments</figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img src="{{ '/assets/images/gallery/ischpp-2022/IMG_2578.JPG' | relative_url }}" alt="ISCHPP 2023 event snapshot">
+        <figcaption>Event Snapshot</figcaption>
+      </figure>
+    </div>
+
+    <button class="slide-control prev" type="button" aria-label="Previous slide" data-slide-prev>Previous</button>
+    <button class="slide-control next" type="button" aria-label="Next slide" data-slide-next>Next</button>
+
+    <div class="slide-dots" data-slide-dots aria-label="Slide navigation"></div>
+  </div>
+</section>
 
 <div class="callout">
-  ISPVP extends the successful ISCHPP tradition into a broader plant vascular pathosystems platform, promoting interdisciplinary exchange while preserving rigorous scientific standards.
+  Selected highlights from the ISCHPP 2023 meeting in Clearwater Beach, Florida.
 </div>
 
 ## Latest Updates

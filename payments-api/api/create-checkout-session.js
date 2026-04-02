@@ -91,6 +91,7 @@ export default async function handler(req, res) {
       name,
       email,
       affiliation,
+      businessTitle,
       ticketType,
       pricingWindow,
       checkoutType
@@ -103,7 +104,7 @@ export default async function handler(req, res) {
       return;
     }
 
-    if (!isDonation && (!affiliation || !ticketType || !pricingWindow)) {
+    if (!isDonation && (!affiliation || !businessTitle || !ticketType || !pricingWindow)) {
       sendJson(res, 400, { error: 'Missing required fields.' });
       return;
     }
@@ -154,6 +155,7 @@ export default async function handler(req, res) {
         name,
         email,
         affiliation: affiliation || '',
+        businessTitle: businessTitle || '',
         ticketType: ticketType || '',
         pricingWindow: pricingWindow || '',
         abstractToken

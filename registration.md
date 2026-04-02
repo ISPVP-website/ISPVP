@@ -7,23 +7,35 @@ hero_text: Complete registration and payment below. After successful payment, th
 
 ## Registration Windows
 
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Period</th>
-        <th>Window</th>
-        <th>Regular</th>
-        <th>Research Staff</th>
-        <th>Student</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 1–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
-      <tr><td>General + Abstract Submission</td><td><span class="date">August 2–23, 2026</span></td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
-      <tr><td>Late Registration + Poster Abstracts Only</td><td><span class="date">August 24–September 25, 2026</span></td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
-    </tbody>
-  </table>
+<div class="grid two">
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Period</th>
+          <th>Window</th>
+          <th>Regular</th>
+          <th>Research Staff</th>
+          <th>Student</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 1–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
+        <tr><td>General + Abstract Submission</td><td><span class="date">August 2–23, 2026</span></td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
+        <tr><td>Late Registration + Poster Abstracts Only</td><td><span class="date">August 24–September 25, 2026</span></td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <article class="card">
+    <h3>What Registration Includes</h3>
+    <ul>
+      <li>Access to all scientific sessions and plenary lectures.</li>
+      <li>Poster sessions, welcome reception, and conference dinner (banquet).</li>
+      <li>Program materials and digital abstract book.</li>
+      <li>Coffee breaks and designated lunches.</li>
+    </ul>
+  </article>
 </div>
 
 <div class="callout">
@@ -33,7 +45,7 @@ hero_text: Complete registration and payment below. After successful payment, th
 <section class="card registration-flow" aria-label="Automated registration and payment">
   <h2>Automated Registration And Payment</h2>
   <p class="small">
-    Submit your details, select a ticket type, and continue to secure Stripe Checkout.
+    Submit your details (including official business title), select a ticket type, and continue to secure Stripe Checkout.
   </p>
 
   <form id="registration-payment-form" data-checkout-form>
@@ -53,6 +65,13 @@ hero_text: Complete registration and payment below. After successful payment, th
         <label for="affiliation">Affiliation / Institution</label>
         <input id="affiliation" name="affiliation" type="text" required>
       </div>
+      <div>
+        <label for="businessTitle">Official Title (Business Title)</label>
+        <input id="businessTitle" name="businessTitle" type="text" required>
+      </div>
+    </div>
+
+    <div class="form-grid two-col">
       <div>
         <label for="ticketType">Ticket Type</label>
         <select id="ticketType" name="ticketType" required>
@@ -121,13 +140,6 @@ If you want to collect extra organizer fields before payment, embed a Google For
 - Meeting day 1: <span class="date">Wednesday, October 21, 2026</span>
 - Meeting day 2: <span class="date">Thursday, October 22, 2026</span>
 - Meeting day 3: <span class="date">Friday, October 23, 2026</span>
-
-## What Registration Includes
-
-- Access to all scientific sessions and plenary lectures.
-- Poster sessions, welcome reception, and conference dinner.
-- Program materials and digital abstract book.
-- Coffee breaks and designated lunches.
 
 ## Cancellation Policy
 
