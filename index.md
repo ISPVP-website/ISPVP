@@ -126,11 +126,11 @@ title: ISPVP 2026
       </figure>
       <figure class="slide" data-slide>
         <img class="slide-contain" src="{{ "/Pathosystem Image Highlights/Symptoms of Pierce's disease in grapevines caused by Xylella fastidiosa (courtesy A.C. Goheen; reproduced from Compendium of Grape Diseases, 1988, American Phytopathological Society, St. Paul, MN).jpg" | relative_url | uri_escape }}" alt="Symptoms of Pierce's disease in grapevines caused by Xylella fastidiosa">
-        <figcaption>Symptoms of Pierce's disease in grapevines caused by <em>Xylella fastidiosa</em>. <span class="small">Reference: Pierce's disease image credit in information.txt.</span></figcaption>
+        <figcaption>Symptoms of Pierce's disease in grapevines caused by <em>Xylella fastidiosa</em> (courtesy A.C. Goheen; reproduced from Compendium of Grape Diseases, 1988, American Phytopathological Society, St. Paul, MN).</figcaption>
       </figure>
       <figure class="slide" data-slide>
         <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/The glassy-winged sharpshooter leafhopper vector of Xylella fasidiosa (courtesy B. Bextine, Fletcher and Wayadande, 2002, The Plant Health Instructor).jpg' | relative_url | uri_escape }}" alt="The glassy-winged sharpshooter leafhopper vector of Xylella fastidiosa">
-        <figcaption>The glassy-winged sharpshooter leafhopper vector of <em>Xylella fastidiosa</em>. <span class="small">Reference: vector image credit in information.txt.</span></figcaption>
+        <figcaption>The glassy-winged sharpshooter leafhopper vector of <em>Xylella fastidiosa</em> (courtesy B. Bextine, Fletcher and Wayadande, 2002, The Plant Health Instructor).</figcaption>
       </figure>
       <figure class="slide" data-slide>
         <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/Adult Asian citrus psyllid, Diaphorina citri, (2-3 millimeters long) on a young citrus leaf.jpg' | relative_url | uri_escape }}" alt="Adult Asian citrus psyllid on a young citrus leaf">
