@@ -25,10 +25,10 @@ title: ISPVP 2026
   </div>
 </section>
 
-## 2026 Theme
+## Theme
 
 <div class="callout">
-  <strong>Confronting Endemic and Emerging Plant Vascular Pathogens, Insect Vectors, and Diseases Together.</strong>
+  <p style="margin: 0; font-size: 1.3rem; font-weight: 800; letter-spacing: 0.02em; text-transform: uppercase; line-height: 1.35;">Confronting Endemic and Emerging Plant Vascular Pathogens, Insect Vectors, and Diseases Together.</p>
 </div>
 
 <section class="container venue-showcase" aria-label="Venue and destination photo slideshow">
@@ -103,9 +103,9 @@ title: ISPVP 2026
   </article>
 </div>
 
-## Pathosystem Photo Gallery
+## Disease Photo Gallery
 
-<section class="container venue-showcase" aria-label="Pathosystem photo gallery slideshow">
+<section class="container venue-showcase" aria-label="Disease photo gallery slideshow">
   <div class="slideshow" data-slideshow>
     <div class="slides" data-slides>
       <figure class="slide is-active" data-slide>
@@ -185,10 +185,6 @@ title: ISPVP 2026
   </div>
 </section>
 
-<p class="small">
-  Pathosystem photo gallery sourced from the Pathosystem Image Highlights folder and information.txt reference list.
-</p>
-
 ## 2023 Meeting Photo Gallery
 
 <section class="container venue-showcase" aria-label="ISCHPP 2023 photo slideshow">
@@ -223,17 +219,3 @@ title: ISPVP 2026
   Selected highlights from the ISCHPP 2023 meeting in Clearwater Beach, Florida.
 </div>
 
-## Latest Updates
-
-<div class="grid two">
-  <article class="card">
-    <h3>Program Framework Published</h3>
-    <p>The organizing committee has approved seven thematic scientific sessions for ISPVP 2026.</p>
-    <p><a href="{{ '/program/' | relative_url }}">Explore the scientific program</a></p>
-  </article>
-  <article class="card">
-    <h3>Committee Expansion</h3>
-    <p>International advisory membership now includes representatives from North America, Europe, South America, and Asia.</p>
-    <p><a href="{{ '/committee/' | relative_url }}">Meet the committee</a></p>
-  </article>
-</div>

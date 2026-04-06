@@ -114,28 +114,6 @@ hero_text: Complete registration and payment below. After successful payment, th
   <a class="button" href="{{ '/fundraising/' | relative_url }}">Go To Fundraising Support</a>
 </p>
 
-## Optional Additional Details Form
-
-If you want to collect extra organizer fields before payment, embed a Google Form below and keep payment as the source-of-truth step.
-
-<iframe
-  title="Optional pre-registration Google Form"
-  width="100%"
-  height="620"
-  src="https://docs.google.com/forms/d/e/YOUR_REGISTRATION_FORM_ID/viewform?embedded=true"
-  frameborder="0"
-  marginheight="0"
-  marginwidth="0"
-  loading="lazy"
-  style="border: none; max-width: 100%;">
-</iframe>
-
-## Integration Notes
-
-- Set your backend API base URL in `window.ISPVP_CONFIG.CHECKOUT_API_BASE` inside `assets/js/main.js`.
-- Configure Stripe price IDs for each ticket type and pricing window in the backend env vars.
-- Do not place Stripe secret keys in this repository.
-
 ## 2026 Venue Window
 
 - Arrival and registration: <span class="date">Tuesday, October 20, 2026</span>

@@ -13,13 +13,12 @@ hero_text: Practical travel information for international participants will be u
   <p><strong>Negotiated Room Rate:</strong> USD 89 (room block)</p>
 </div>
 
-## Airport And Ground Transport (Brownsville)
+## Airport And Ground Transport
 
 - Brownsville South Padre Island International Airport (BRO) is the primary airport for the conference and is about 30 miles (48 km) from the South Padre Island venue.
 - Valley International Airport (HRL) in Harlingen is about 45 miles (72 km) from South Padre Island.
 - McAllen Miller International Airport (MFE) is about 80 miles (129 km) from South Padre Island.
 - Ground transportation options may include pre-arranged shuttle service, local taxis, and rideshare options such as Uber and Lyft, depending on flight schedules and local availability.
-- Participants requiring local mobility support can request assistance via the contact page.
 
 ## International Participation
 
