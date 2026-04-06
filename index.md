@@ -164,6 +164,18 @@ title: ISPVP 2026
         <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/Field symptoms of Fusarium wilt expressed in cotton seedlings and mature cotton.webp' | relative_url | uri_escape }}" alt="Field symptoms of Fusarium wilt in cotton">
         <figcaption>Field symptoms of Fusarium wilt in cotton. <span class="small">Reference: Le et al. (2022).</span></figcaption>
       </figure>
+      <figure class="slide" data-slide>
+        <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/Symptomatic tomato plant infected with TYLCV. Note the leaf curl.  Inga Meadows.jpeg' | relative_url | uri_escape }}" alt="Symptomatic tomato plant infected with TYLCV showing leaf curl">
+        <figcaption>Symptomatic tomato plant infected with TYLCV showing leaf curl. <span class="small">Reference: Inga Meadows.</span></figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/Symptoms of corn stunt disease.  Dr. Maira Duffeck, Plant Pathologist, Oklahoma State University.png' | relative_url | uri_escape }}" alt="Symptoms of corn stunt disease">
+        <figcaption>Symptoms of corn stunt disease. <span class="small">Reference: Dr. Maira Duffeck, Plant Pathologist, Oklahoma State University.</span></figcaption>
+      </figure>
+      <figure class="slide" data-slide>
+        <img class="slide-contain" src="{{ '/Pathosystem Image Highlights/The corn leafhopper (Dalbulus maidis) on a corn leaf (A) and in a magnified view (B). The images were kindly provided by Dr. Maira Duffeck, Plant Pathologist, Oklahoma State University.png' | relative_url | uri_escape }}" alt="Corn leafhopper on a corn leaf and magnified view">
+        <figcaption>The corn leafhopper (<em>Dalbulus maidis</em>) on a corn leaf (A) and in a magnified view (B). <span class="small">Images kindly provided by Dr. Maira Duffeck, Plant Pathologist, Oklahoma State University.</span></figcaption>
+      </figure>
     </div>
 
     <button class="slide-control prev" type="button" aria-label="Previous slide" data-slide-prev>Previous</button>
