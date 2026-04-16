@@ -1,6 +1,5 @@
 ---
 title: Contact
-hero_kicker: Secretariat
 hero_title: Contact The ISPVP Organizing Team
 hero_text: For any questions, please contact us at info@ispvp.org.
 ---

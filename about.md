@@ -1,7 +1,7 @@
 ---
 title: About ISPVP
 hero_kicker: Mission
-hero_title: Building A Global Scientific Forum For Vascular Pathosystems and Biothreat
+hero_title: Building A Global Scientific Forum For Vascular Pathosystems and Biothreats
 hero_text: ISPVP convenes a research community focused on vascular pathogen systems (insect vectors) and their ecological, molecular, and translational dimensions.
 ---
 
