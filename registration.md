@@ -60,9 +60,3 @@ hero_text: Registration link Pending (AgriLife Register).
 - Meeting day 1: <span class="date">Wednesday, October 21, 2026</span>
 - Meeting day 2: <span class="date">Thursday, October 22, 2026</span>
 - Meeting day 3: <span class="date">Friday, October 23, 2026</span>
-
-## Cancellation Policy
-
-- Full refund minus processing fee until 30 days before symposium start.
-- Fifty percent refund for cancellations 14-29 days before symposium start.
-- No refund within 14 days of symposium start; substitution is permitted.
