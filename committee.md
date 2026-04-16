@@ -43,7 +43,3 @@ hero_text: A multidisciplinary committee guides program quality, logistics, and 
   <article class="card"><h3>Marcos Antonio Machado</h3><p>Centro de Citricultura Sylvio Moreira, Instituto Agronomico, Brazil</p></article>
   <article class="card"><h3>Xuefeng Wang</h3><p>South West University, China</p></article>
 </div>
-
-<div class="callout">
-  Organizing and advisory committee details are synchronized with the committee meeting notes from March 27, 2026.
-</div>
