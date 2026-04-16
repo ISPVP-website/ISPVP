@@ -1,14 +1,14 @@
 ---
-title: Fundraising Support
+title: Sponsorship
 hero_kicker: Support ISPVP
-hero_title: Fundraising And Donations
-hero_text: Support ISPVP student travel awards and scientific outreach through secure Stripe donation checkout.
+hero_title: Sponsorship
+hero_text: Support ISPVP student travel awards and scientific outreach through sponsorship opportunities.
 ---
 
-<section class="card registration-flow" aria-label="Fundraising and donations">
-  <h2>Fundraising Support</h2>
+<section class="card registration-flow" aria-label="Sponsorship and support">
+  <h2>Sponsorship</h2>
   <p class="small">
-    Thank you for supporting the ISPVP community. Donations help student travel awards and outreach initiatives.
+    Thank you for supporting the ISPVP community. Sponsorship helps student travel awards and outreach initiatives.
   </p>
 
   <form id="fundraising-form" data-donation-form>
@@ -42,14 +42,14 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
     </div>
 
     <button class="button" type="submit" data-donation-submit>
-      Donate Via Secure Checkout
+      Sponsor Via Secure Checkout
     </button>
     <p class="small" id="donation-message" aria-live="polite"></p>
   </form>
 </section>
 
 <div class="callout">
-  Donation payments redirect to a dedicated thank-you result page and do not require abstract submission.
+  Sponsorship payments redirect to a dedicated thank-you result page and do not require abstract submission.
 </div>
 
 <p>

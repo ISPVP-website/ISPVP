@@ -2,7 +2,7 @@
 title: Registration
 hero_kicker: Attendance
 hero_title: Registration Pathways And Fee Schedule
-hero_text: Complete registration and payment below. After successful payment, the abstract submission link is sent automatically by email.
+hero_text: Registration link Pending (AgriLife Register).
 ---
 
 ## Registration Windows
@@ -37,82 +37,22 @@ hero_text: Complete registration and payment below. After successful payment, th
 </article>
 
 <div class="callout">
-  Payment is verified through Stripe Checkout. The abstract submission link is emailed only after confirmed payment.
+  Registration link Pending (AgriLife Register).
 </div>
 
-<section class="card registration-flow" aria-label="Automated registration and payment">
-  <h2>Automated Registration And Payment</h2>
-  <p class="small">
-    Submit your details (including official business title), select a ticket type, and continue to secure Stripe Checkout.
+<section class="card" aria-label="Registration link pending">
+  <h2>Registration Link Pending</h2>
+  <p>
+    Registration link Pending (AgriLife Register).
   </p>
-
-  <form id="registration-payment-form" data-checkout-form>
-    <div class="form-grid two-col">
-      <div>
-        <label for="firstName">First Name</label>
-        <input id="firstName" name="firstName" type="text" placeholder="Jane" required>
-      </div>
-      <div>
-        <label for="lastName">Last Name</label>
-        <input id="lastName" name="lastName" type="text" placeholder="Smith" required>
-      </div>
-    </div>
-
-    <div class="form-grid two-col">
-      <div>
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="jane.smith@example.edu" required>
-      </div>
-      <div>
-        <label for="businessTitle">Official Title (Business Title)</label>
-        <input id="businessTitle" name="businessTitle" type="text" placeholder="Professor" required>
-      </div>
-    </div>
-
-    <div class="form-grid two-col">
-      <div>
-        <label for="affiliation">Affiliation / Institution</label>
-        <input id="affiliation" name="affiliation" type="text" placeholder="University of Example" required>
-      </div>
-      <div>
-        <label for="ticketType">Ticket Type</label>
-        <select id="ticketType" name="ticketType" required>
-          <option value="regular">Regular</option>
-          <option value="research">Research Staff</option>
-          <option value="student">Student</option>
-        </select>
-      </div>
-    </div>
-
-    <div class="form-grid two-col">
-      <div>
-        <label for="pricingWindow">Pricing Window</label>
-        <select id="pricingWindow" name="pricingWindow" required>
-          <option value="early">Early Bird</option>
-          <option value="general">General</option>
-          <option value="late">Late</option>
-        </select>
-      </div>
-      <div>
-        <label>Selected Fee</label>
-        <p id="selected-fee" class="fee-preview">USD 450</p>
-      </div>
-    </div>
-
-    <button class="button primary" type="submit" data-submit-button>
-      Continue To Secure Checkout
-    </button>
-    <p class="small" id="checkout-message" aria-live="polite"></p>
-  </form>
+  <p>
+    <a class="button primary" href="#" aria-disabled="true">Registration Link Pending (AgriLife Register)</a>
+  </p>
 </section>
 
 <div class="callout">
-  <strong>Fundraising has moved:</strong> The donation checkout is now in a dedicated section.
+  Payment is no longer collected on this page.
 </div>
-
-<p>
-  <a class="button" href="{{ '/fundraising/' | relative_url }}">Go To Fundraising Support</a>
-</p>
 
 ## 2026 Venue Window
 
