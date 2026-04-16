@@ -5,52 +5,54 @@ hero_title: Sponsorship
 hero_text: Support ISPVP student travel awards and scientific outreach through sponsorship opportunities.
 ---
 
-<section class="card registration-flow" aria-label="Sponsorship and support">
+<div class="callout">
+  Registration link Pending (AgriLife Register).
+</div>
+
+<section class="card registration-flow" aria-label="Sponsorship information">
   <h2>Sponsorship</h2>
-  <p class="small">
-    Thank you for supporting the ISPVP community. Sponsorship helps student travel awards and outreach initiatives.
+  <p>
+    ISPVP prides itself on providing an excellent scientific program and a platform for networking and collaboration among researchers, extension professionals, educators, and industry. We also strive to provide students with opportunities to participate in and present their research through competitive travel awards and research presentation awards. The success of this meeting depends on contributions from benefactors and sponsors like you to fund our awards and keep the meeting's costs affordable for our members. We welcome any contribution and will recognize all donors at the meeting. You can select the level of exposure your affiliation would like for this program meeting.
   </p>
 
-  <form id="fundraising-form" data-donation-form>
-    <div class="form-grid two-col">
-      <div>
-        <label for="donorFirstName">First Name</label>
-        <input id="donorFirstName" name="donorFirstName" type="text" placeholder="Jane" required>
-      </div>
-      <div>
-        <label for="donorLastName">Last Name</label>
-        <input id="donorLastName" name="donorLastName" type="text" placeholder="Smith" required>
-      </div>
-    </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Level</th>
+          <th>Amount</th>
+          <th>Recognition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Bronze</td>
+          <td>&lt; $500</td>
+          <td>The company logo will be listed during the meeting acknowledgments and printed in the program books.</td>
+        </tr>
+        <tr>
+          <td>Silver</td>
+          <td>$500 - $999</td>
+          <td>All of the above, plus promotion on the program website, at various networking and poster events, and during breaks at the meeting.</td>
+        </tr>
+        <tr>
+          <td>Gold</td>
+          <td>$1,000 - $2,499</td>
+          <td>All of the above, plus a promotion/recognition opportunity to sponsor a student award.</td>
+        </tr>
+        <tr>
+          <td>Platinum</td>
+          <td>&gt; $2,500</td>
+          <td>All of the above, plus a promotion/recognition opportunity to sponsor a general session.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    <div class="form-grid two-col">
-      <div>
-        <label for="donorEmail">Email</label>
-        <input id="donorEmail" name="donorEmail" type="email" placeholder="jane.smith@example.edu" required>
-      </div>
-      <div>
-        <label for="donorTitle">Official Title (Business Title)</label>
-        <input id="donorTitle" name="donorTitle" type="text" placeholder="Professor" required>
-      </div>
-    </div>
-
-    <div class="form-grid">
-      <div>
-        <label for="donorAffiliation">Affiliation / Institution (optional)</label>
-        <input id="donorAffiliation" name="donorAffiliation" type="text" placeholder="ISPVP supporter">
-      </div>
-    </div>
-
-    <button class="button" type="submit" data-donation-submit>
-      Sponsor Via Secure Checkout
-    </button>
-    <p class="small" id="donation-message" aria-live="polite"></p>
-  </form>
+  <p>
+    Please submit the attached form along with your affiliation’s logo (300 dpi or greater) to XXX.
+  </p>
 </section>
-
-<div class="callout">
-  Sponsorship payments redirect to a dedicated thank-you result page and do not require abstract submission.
-</div>
 
 <p>
   <a class="button secondary" href="{{ '/registration/' | relative_url }}">Back To Registration</a>
