@@ -47,7 +47,7 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
 </article>
 
 <div class="callout">
-  Registration link Pending (Texas A&M AgriLife Register).
+  Registration link Pending (Texas A&M Texas A&M AgriLife Register).
 </div>
 
 <section class="card" aria-label="Registration link pending">
