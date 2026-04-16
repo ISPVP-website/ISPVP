@@ -3,7 +3,7 @@ email: info@ispvp.org
 description: >-
   ISPVP is a global scientific symposium focused on plant vascular pathosystems,
   integrating pathogen biology, vector ecology, host response, diagnostics, and disease management.
-baseurl: "/ISPVP"
+baseurl: "/ISPVP-preview"
 url: "https://alextu870719.github.io"
 timezone: America/New_York
 markdown: kramdown
