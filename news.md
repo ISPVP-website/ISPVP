@@ -13,7 +13,7 @@ hero_text: Official updates regarding deadlines, program releases, invited speak
   {% for post in site.posts limit: 6 %}
   <article class="card">
     <p class="small">{{ post.date | date: "%d %b %Y" }}</p>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <h3>{{ post.title }}</h3>
     <p>{{ post.excerpt | strip_html | truncate: 140 }}</p>
   </article>
   {% endfor %}

@@ -1,5 +1,5 @@
 ---
-title: ISPVP Website Development Started
+title: ISPVP conference development started
 ---
 
 Implementation has started for the new ISPVP conference website on GitHub Pages.
