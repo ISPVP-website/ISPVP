@@ -22,5 +22,5 @@ hero_text: Abstract submission is available to paid participants via a secure li
 </ul>
 
 <p>
-  <a class="button secondary" href="mailto:program@ispvp.org">Contact Program Chair</a>
+  <a class="button secondary" href="mailto:info@ispvp.org">Contact Us</a>
 </p>

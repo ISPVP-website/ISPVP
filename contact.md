@@ -2,28 +2,14 @@
 title: Contact
 hero_kicker: Secretariat
 hero_title: Contact The ISPVP Organizing Team
-hero_text: Use the channels below for registration, abstract, and logistics support.
+hero_text: For any questions, please contact us at info@ispvp.org.
 ---
 
-## Contact Channels
+## Contact
 
-<div class="grid two">
-  <article class="card">
-    <h3>General Inquiries</h3>
-    <p><a href="mailto:info@ispvp.org">info@ispvp.org</a></p>
-  </article>
-  <article class="card">
-    <h3>Scientific Program</h3>
-    <p><a href="mailto:program@ispvp.org">program@ispvp.org</a></p>
-  </article>
-  <article class="card">
-    <h3>Registration Support</h3>
-    <p><a href="mailto:registration@ispvp.org">registration@ispvp.org</a></p>
-  </article>
-  <article class="card">
-    <h3>Visa/Invitation Letter</h3>
-    <p><a href="mailto:visa@ispvp.org">visa@ispvp.org</a></p>
-  </article>
+<div class="card">
+  <h3>Email</h3>
+  <p><a href="mailto:info@ispvp.org">info@ispvp.org</a></p>
 </div>
 
 ## Contact Form (Static-Compatible)
