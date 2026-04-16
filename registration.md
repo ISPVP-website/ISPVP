@@ -27,8 +27,8 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
 </div>
 
 <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
-  <strong>Regular:</strong> Assistant, Associate, Professor, and equivalent scientists <br>
-  <strong>Research Staff:</strong> Postdocs, technicians, and equivalent staff
+  <strong>Regular:</strong> Professors, scientists, and equivalent <br>
+  <strong>Research Staff:</strong> Postdocs, technicians, and equivalent
 </p>
 
 <article class="card" style="margin-top: 1rem;">
