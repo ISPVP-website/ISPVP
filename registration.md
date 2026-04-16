@@ -12,19 +12,24 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
     <thead>
       <tr>
         <th>Period</th>
-<p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
-  <strong>Regular:</strong> Assistant, Associate, Professor, and equivalent scientists <br>
-  <strong>Research Staff:</strong> Postdocs, technicians, and equivalent staff
-</p>
+        <th>Window</th>
+        <th>Regular</th>
+        <th>Research Staff</th>
+        <th>Student</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 1–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
+      <tr><td>General + Abstract Submission</td><td><span class="date">August 2–23, 2026</span></td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
       <tr><td>Late Registration + Poster Abstracts Only</td><td><span class="date">August 24–September 25, 2026</span></td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
     </tbody>
   </table>
 </div>
 
-  <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
-    <strong>Regular:</strong> Assistant, Associate, Professor, and equivalent scientists <br>
-    <strong>Research Staff:</strong> Postdocs, technicians, and equivalent staff
-  </p>
+<p style="margin-top: 0.5rem; font-size: 0.9rem; color: #555;">
+  <strong>Regular:</strong> Assistant, Associate, Professor, and equivalent scientists <br>
+  <strong>Research Staff:</strong> Postdocs, technicians, and equivalent staff
+</p>
 
 <article class="card" style="margin-top: 1rem;">
   <h3>What's Included:</h3>
@@ -37,7 +42,7 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
 </article>
 
 <div class="callout">
-  Registration link Pending (Texas A&M Texas A&M AgriLife Register).
+  Registration link Pending (Texas A&M AgriLife Register).
 </div>
 
 <section class="card" aria-label="Registration link pending">
