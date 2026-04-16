@@ -1,7 +1,7 @@
 ---
 title: Scientific Program
 hero_kicker: Program
-hero_title: Thematic Sessions For ISPVP
+hero_title: Thematic Sessions For ISPVP (tentative)
 hero_text: A seven-session framework with invited and selected talks aligned to the 2026 committee outline.
 ---
 

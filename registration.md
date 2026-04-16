@@ -50,10 +50,6 @@ hero_text: Registration link Pending (AgriLife Register).
   </p>
 </section>
 
-<div class="callout">
-  Payment is no longer collected on this page.
-</div>
-
 ## 2026 Venue Window
 
 - Arrival and registration: <span class="date">Tuesday, October 20, 2026</span>
