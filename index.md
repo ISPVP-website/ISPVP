@@ -9,8 +9,8 @@ title: ISPVP 2026
       <h2>3rd International Symposium for Plant Vascular Pathosystems (ISPVP) | <span class="date">October 20–23, 2026</span> | South Padre Island, Texas</h2>
       <p class="lead">ISPVP convenes a research community focused on vascular pathogen systems,insect vectors and their ecological, molecular, and translational dimensions.</p>
       <div class="hero-cta">
-        <a class="button primary" href="{{ '/registration/' | relative_url }}">Register Interest</a>
-        <a class="button secondary" href="{{ '/abstracts/' | relative_url }}">Submit Abstract</a>
+        <a class="button primary" href="{{ '/registration/' | relative_url }}">Registration Information</a>
+        <a class="button secondary" href="{{ '/abstracts/' | relative_url }}">Abstract Submission Information</a>
       </div>
     </div>
     <aside class="panel">
