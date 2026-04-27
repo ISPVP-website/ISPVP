@@ -27,6 +27,7 @@ hero_text: A multidisciplinary committee guides program quality, logistics, and 
       <tr><td>Organizing Committee Member</td><td>Kirsten Pelinsky</td><td>University of Florida</td></tr>
       <tr><td>Organizing Committee Member</td><td>Jinyun Li</td><td>University of Florida</td></tr>
       <tr><td>Organizing Committee Member</td><td>Caroline Roper</td><td>University of California-Riverside</td></tr>
+      <tr><td>Organizing Committee Member</td><td>Dr. Judith Brown</td><td>University of Arizona</td></tr>
       <tr><td>Organizing Committee Member</td><td>Laure Beven</td><td>INRAE, France</td></tr>
     </tbody>
   </table>
