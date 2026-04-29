@@ -154,12 +154,17 @@ if (registrationForm || donationForm) {
       const now = new Date();
       const todayUtc = toUtcDate(now.getUTCFullYear(), now.getUTCMonth() + 1, now.getUTCDate());
 
+      const earlyStart = toUtcDate(2026, 5, 15);
       const generalStart = toUtcDate(2026, 8, 2);
       const generalEnd = toUtcDate(2026, 8, 23);
       const lateStart = toUtcDate(2026, 8, 24);
       const lateEnd = toUtcDate(2026, 9, 25);
 
-      // Early bird is intentionally available now until general opens.
+      if (todayUtc < earlyStart) {
+        return '';
+      }
+
+      // Early bird is available from May 15 until general registration opens.
       if (todayUtc < generalStart) {
         return 'early';
       }

@@ -19,7 +19,7 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
       </tr>
     </thead>
     <tbody>
-      <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 1–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
+      <tr><td>Early Bird + Abstract Submission</td><td><span class="date">May 15–August 1, 2026</span></td><td>USD 450</td><td>USD 350</td><td>USD 250</td></tr>
       <tr><td>General + Abstract Submission</td><td><span class="date">August 2–23, 2026</span></td><td>USD 500</td><td>USD 400</td><td>USD 300</td></tr>
       <tr><td>Late Registration + Poster Abstracts Only</td><td><span class="date">August 24–September 25, 2026</span></td><td>USD 550</td><td>USD 450</td><td>USD 350</td></tr>
     </tbody>
