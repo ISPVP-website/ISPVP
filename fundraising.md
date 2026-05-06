@@ -6,7 +6,7 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
 ---
 
 <div class="callout">
-  Registration link Pending (AgriLife Register).
+  Support ISPVP via the Texas A&amp;M AgriLife sponsorship portal.
 </div>
 
 <section class="card registration-flow" aria-label="Sponsorship information">
@@ -55,5 +55,5 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
 </section>
 
 <p>
-  <a class="button secondary" href="{{ '/registration/' | relative_url }}">Back To Registration</a>
+  <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-003" target="_blank" rel="noopener">Become a Sponsor (Texas A&amp;M AgriLife)</a>
 </p>
