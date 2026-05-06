@@ -11,6 +11,7 @@ title: ISPVP 2026
       <div class="hero-cta">
         <a class="button primary" href="{{ '/registration/' | relative_url }}">Registration Information</a>
         <a class="button secondary" href="{{ '/abstracts/' | relative_url }}">Abstract Submission Information</a>
+        <a class="button" href="{{ '/fundraising/' | relative_url }}">Sponsorship Information</a>
       </div>
     </div>
     <aside class="panel">

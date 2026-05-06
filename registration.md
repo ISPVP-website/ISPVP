@@ -2,7 +2,7 @@
 title: Registration
 hero_kicker: Attendance
 hero_title: Registration Pathways And Fee Schedule
-hero_text: Registration link Pending (Texas A&M AgriLife Register).
+hero_text: Please register through the Texas A&M AgriLife registration portal.
 ---
 
 ## Registration Windows
@@ -40,10 +40,6 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
     <li>Breakfast, Lunch, and Coffee breaks during conference days.</li>
   </ol>
 </article>
-
-  <div class="callout">
-  Register at Texas A&M AgriLife Register.
-</div>
 
 <section class="card" aria-label="Registration link">
   <h2>Register Now</h2>

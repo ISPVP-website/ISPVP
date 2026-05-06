@@ -6,7 +6,7 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
 ---
 
 <div class="callout">
-  Support ISPVP via the Texas A&amp;M AgriLife sponsorship portal.
+  <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-003" target="_blank" rel="noopener">Become a Sponsor (Texas A&amp;M AgriLife)</a>
 </div>
 
 <section class="card registration-flow" aria-label="Sponsorship information">
@@ -54,6 +54,4 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
   </p>
 </section>
 
-<p>
-  <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-003" target="_blank" rel="noopener">Become a Sponsor (Texas A&amp;M AgriLife)</a>
-</p>
+ 
