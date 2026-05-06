@@ -2,7 +2,7 @@
 title: Registration
 hero_kicker: Attendance
 hero_title: Registration Pathways And Fee Schedule
-hero_text: Registration link Pending (Texas A&M AgriLife Register).
+hero_text: Please register through the Texas A&M AgriLife registration portal.
 ---
 
 ## Registration Windows
@@ -41,17 +41,13 @@ hero_text: Registration link Pending (Texas A&M AgriLife Register).
   </ol>
 </article>
 
-<div class="callout">
-  Registration link Pending (Texas A&M AgriLife Register).
-</div>
-
-<section class="card" aria-label="Registration link pending">
-  <h2>Registration Link Pending</h2>
+<section class="card" aria-label="Registration link">
+  <h2>Register Now</h2>
   <p>
-    Registration link Pending (Texas A&M AgriLife Register).
+    Please register through the Texas A&amp;M AgriLife registration portal.
   </p>
   <p>
-    <a class="button primary" href="#" aria-disabled="true">Registration Link Pending (Texas A&M AgriLife Register)</a>
+    <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-001" target="_blank" rel="noopener">Register (Texas A&amp;M AgriLife)</a>
   </p>
 </section>
 
