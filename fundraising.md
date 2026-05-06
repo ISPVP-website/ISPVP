@@ -56,7 +56,12 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
 
 <section class="card docs" aria-label="Sponsorship Flyer">
   <h3>Sponsorship Flyer</h3>
-  <embed src="{{ '/assets/docs/Sponsor-ISPVP_Final_Flyers.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px" />
+  <div class="pdf-container">
+    <iframe src="{{ '/assets/docs/Sponsor-ISPVP_Final_Flyers.pdf' | relative_url }}" title="Sponsorship Flyer"></iframe>
+  </div>
+  <p style="text-align: center; margin-top: 1rem;">
+    <a class="button secondary" href="{{ '/assets/docs/Sponsor-ISPVP_Final_Flyers.pdf' | relative_url }}" download>Download Flyer (PDF)</a>
+  </p>
 </section>
 
 

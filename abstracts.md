@@ -23,9 +23,14 @@ hero_text: Abstract submission is available to paid participants via a secure li
 
 ## Abstract Template
 
-<p>
-  <a class="button secondary" href="{{ '/assets/docs/WESL-EV-002-Abstract-Template.pdf' | relative_url }}" target="_blank" rel="noopener">Download Abstract Template (PDF)</a>
-</p>
+<section class="card docs" aria-label="Abstract Template">
+  <div class="pdf-container">
+    <iframe src="{{ '/assets/docs/WESL-EV-002-Abstract-Template.pdf' | relative_url }}" title="Abstract Template"></iframe>
+  </div>
+  <p style="text-align: center; margin-top: 1rem;">
+    <a class="button secondary" href="{{ '/assets/docs/WESL-EV-002-Abstract-Template.pdf' | relative_url }}" download>Download Template (PDF)</a>
+  </p>
+</section>
 
 <p>
   <a class="button secondary" href="mailto:info@ispvp.org">Contact Us</a>

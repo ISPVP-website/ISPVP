@@ -53,7 +53,12 @@ hero_text: ""
 
 <section class="card docs" aria-label="Registration Flyer">
   <h3>Registration Flyer</h3>
-  <embed src="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px" />
+  <div class="pdf-container">
+    <iframe src="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" title="Registration Flyer"></iframe>
+  </div>
+  <p style="text-align: center; margin-top: 1rem;">
+    <a class="button secondary" href="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" download>Download Flyer (PDF)</a>
+  </p>
 </section>
 
 ## 2026 Venue Window
