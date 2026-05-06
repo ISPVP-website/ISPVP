@@ -5,7 +5,7 @@ const CONFIG = {
   ABSTRACT_FORM_BASE_URL_EARLY_GENERAL: 'https://docs.google.com/forms/d/e/1FAIpQLSfF36B7vCK3crMuTEpiGzNIyT-hhYLubie7l33VNblfQe1RAw/viewform',
   ABSTRACT_FORM_BASE_URL_LATE: 'https://docs.google.com/forms/d/e/1FAIpQLSfxtbR5NR7yzJILlS6SsYg_pQvK2Quipu8bPeM_wLN_2u7FKQ/viewform',
   ABSTRACT_TOKEN_ENTRY_ID: 'entry.1234567890',
-  PROGRAM_EMAIL: 'program@ispvp.org'
+  PROGRAM_EMAIL: 'ispvpconference5@gmail.com'
 };
 
 const HEADERS = [
@@ -30,6 +30,7 @@ const HEADERS = [
 function doPost(e) {
   try {
     const payload = JSON.parse(e.postData.contents || '{}');
+    const isDonation = inferDonation_(payload);
 
     if (payload.secret !== CONFIG.SHARED_SECRET) {
       return jsonResponse({ ok: false, error: 'Unauthorized' });
@@ -59,7 +60,7 @@ function doPost(e) {
       payload.abstractToken || '',
       '',
       '',
-      ''
+      isDonation ? 'fundraising' : 'registration'
     ];
 
     let targetRow = existingRow;
@@ -67,7 +68,7 @@ function doPost(e) {
       const existingData = sheet.getRange(targetRow, 1, 1, HEADERS.length).getValues()[0];
       rowValues[13] = existingData[13] || '';
       rowValues[14] = existingData[14] || '';
-      rowValues[15] = existingData[15] || '';
+      rowValues[15] = existingData[15] || (isDonation ? 'fundraising' : 'registration');
       sheet.getRange(targetRow, 1, 1, HEADERS.length).setValues([rowValues]);
     } else {
       sheet.appendRow(rowValues);
@@ -78,24 +79,51 @@ function doPost(e) {
     const emailSentAt = sheet.getRange(targetRow, 14).getValue();
     if (!emailSentAt && payload.email) {
       const abstractLink = buildAbstractLink_(payload.abstractToken || '', payload.pricingWindow || '');
-      const subject = 'ISPVP payment confirmed: abstract submission link';
-      const body = [
+      const paymentReceiptUrl = String(payload.paymentReceiptUrl || '').trim();
+      const subject = isDonation
+        ? 'ISPVP fundraising payment confirmed: thank you for your support'
+        : 'ISPVP payment confirmed: abstract submission link';
+      const bodyLines = [
         `Dear ${payload.name || 'Participant'},`,
         '',
-        'Your ISPVP registration payment has been confirmed.',
-        '',
-        'Submit your abstract using the secure paid-participant link below:',
-        abstractLink,
-        '',
-        'If the link does not open, contact registration@ispvp.org.',
-        '',
-        'Best regards,',
-        'ISPVP Organizing Committee'
-      ].join('\n');
+        isDonation
+          ? 'Your ISPVP fundraising payment has been confirmed.'
+          : 'Your ISPVP registration payment has been confirmed.',
+      ];
 
-      GmailApp.sendEmail(payload.email, subject, body, {
-        bcc: CONFIG.PROGRAM_EMAIL
-      });
+      if (paymentReceiptUrl) {
+        bodyLines.push(
+          '',
+          'Payment receipt:',
+          paymentReceiptUrl
+        );
+      }
+
+      if (isDonation) {
+        bodyLines.push(
+          '',
+          'Thank you for funding ISPVP. Your support helps student travel awards and scientific outreach.',
+          '',
+          'Best regards,',
+          'ISPVP Organizing Committee'
+        );
+      } else {
+        bodyLines.push(
+          '',
+          'Submit your abstract using the secure paid-participant link below:',
+          abstractLink,
+          '',
+          'If the link does not open, contact registration@ispvp.org.',
+          '',
+          'Best regards,',
+          'ISPVP Organizing Committee'
+        );
+      }
+
+      const body = bodyLines.join('\n');
+
+      const mailOptions = getMailOptions_();
+      GmailApp.sendEmail(payload.email, subject, body, mailOptions);
 
       sheet.getRange(targetRow, 14).setValue(new Date());
     }
@@ -207,4 +235,29 @@ function findRowBySessionId_(sheet, sessionId) {
 function jsonResponse(payload) {
   return ContentService.createTextOutput(JSON.stringify(payload))
     .setMimeType(ContentService.MimeType.JSON);
+}
+
+function getMailOptions_() {
+  const options = {};
+  const email = String(CONFIG.PROGRAM_EMAIL || '').trim();
+
+  // Avoid bounce notices caused by malformed BCC addresses.
+  if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    options.bcc = email;
+  }
+
+  return options;
+}
+
+function inferDonation_(payload) {
+  const checkoutType = String(payload.checkoutType || '').toLowerCase();
+  if (checkoutType === 'donation') {
+    return true;
+  }
+
+  // Backward-compatible fallback: donation events usually have no ticket/pricing/abstract token.
+  const hasTicketType = Boolean(String(payload.ticketType || '').trim());
+  const hasPricingWindow = Boolean(String(payload.pricingWindow || '').trim());
+  const hasAbstractToken = Boolean(String(payload.abstractToken || '').trim());
+  return !hasTicketType && !hasPricingWindow && !hasAbstractToken;
 }

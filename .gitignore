@@ -11,3 +11,5 @@ meeting-notes.txt
 payments-api/.env
 payments-api/.env.*
 !payments-api/.env.example
+.vercel
+.env*.local
