@@ -21,6 +21,12 @@ hero_text: Abstract submission is available to paid participants via a secure li
   <li><strong><span class="date">August 24–September 25, 2026</span>:</strong> Late registration and poster abstract submission only.</li>
 </ul>
 
+## Abstract Template
+
+<p>
+  <a class="button secondary" href="{{ '/assets/docs/WESL-EV-002-Abstract-Template.pdf' | relative_url }}" target="_blank" rel="noopener">Download Abstract Template (PDF)</a>
+</p>
+
 <p>
   <a class="button secondary" href="mailto:info@ispvp.org">Contact Us</a>
 </p>

@@ -51,12 +51,9 @@ hero_text: ""
   </ol>
 </article>
 
-<section class="card docs" aria-label="Flyers">
-  <h3>Flyers</h3>
-  <p>
-    <a class="button secondary" href="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" target="_blank" rel="noopener">Registration Flyer (PDF)</a>
-    <a class="button" href="{{ '/assets/docs/Sponsor-ISPVP_Final_Flyers.pdf' | relative_url }}" target="_blank" rel="noopener">Sponsorship Flyer (PDF)</a>
-  </p>
+<section class="card docs" aria-label="Registration Flyer">
+  <h3>Registration Flyer</h3>
+  <embed src="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" type="application/pdf" width="100%" height="600px" />
 </section>
 
 ## 2026 Venue Window
