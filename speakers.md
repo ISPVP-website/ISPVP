@@ -13,7 +13,6 @@ hero_text: Our confirmed invited speakers for ISPVP 2026.
     <h3>Gitta L. Coaker</h3>
     <p class="eyebrow">University of California, Davis</p>
     <p>Dr. Coaker’s research program focuses on the interaction between bacterial pathogens and plants. Her work focuses on understanding kinase-mediated immune signaling and pathogen effector targets in both model and crop plants. Recent research investigates vascular pathogens, including vector-borne disease associated with <em>Liberibacter</em> species in citrus, tomato and potato. She also works on understanding the interaction between the Gram-positive vascular pathogen <em>Clavibacter</em> and its plant hosts.</p>
-    <p><strong>Research Interests &amp; Expertise:</strong> Molecular biology, genetics and proteomics of plant–microbe interactions; plant bacteriology.</p>
   </article>
   <article class="card speaker-card">
     <img class="speaker-photo" src="{{ '/assets/images/speakers/leonardo-de-la-fuente.jpg' | relative_url }}" alt="Dr. Leonardo De La Fuente headshot">
