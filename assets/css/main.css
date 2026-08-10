@@ -377,6 +377,28 @@ a:focus-visible {
   grid-template-columns: 1fr;
 }
 
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-photo {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(31, 93, 77, 0.25);
+  margin-bottom: 0.75rem;
+}
+
+.speaker-card h3 {
+  margin: 0 0 0.15rem;
+}
+
+.speaker-card .eyebrow {
+  margin: 0 0 0.6rem;
+}
+
 .photo-gallery {
   display: grid;
   gap: 0.9rem;
@@ -838,26 +860,4 @@ summary {
   height: 100%;
   border: none;
   display: block;
-}
-
-.speaker-card {
-  display: flex;
-  flex-direction: column;
-}
-
-.speaker-photo {
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid rgba(31, 93, 77, 0.25);
-  margin-bottom: 0.75rem;
-}
-
-.speaker-card h3 {
-  margin: 0 0 0.15rem;
-}
-
-.speaker-card .eyebrow {
-  margin: 0 0 0.6rem;
 }
