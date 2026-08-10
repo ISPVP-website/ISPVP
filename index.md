@@ -104,6 +104,25 @@ title: ISPVP 2026
   </article>
 </div>
 
+## Featured Speakers
+
+<div class="grid two">
+  <article class="card speaker-card">
+    <img class="speaker-photo" src="{{ '/assets/images/speakers/gitta-coaker.jpg' | relative_url }}" alt="Dr. Gitta L. Coaker headshot">
+    <h3>Gitta L. Coaker</h3>
+    <p class="eyebrow">University of California, Davis</p>
+    <p>Kinase-mediated immune signaling and pathogen effector targets, including vector-borne <em>Liberibacter</em> and the vascular pathogen <em>Clavibacter</em>.</p>
+  </article>
+  <article class="card speaker-card">
+    <img class="speaker-photo" src="{{ '/assets/images/speakers/leonardo-de-la-fuente.jpg' | relative_url }}" alt="Dr. Leonardo De La Fuente headshot">
+    <h3>Leonardo De La Fuente</h3>
+    <p class="eyebrow">Auburn University</p>
+    <p>Plant–microbe interactions of bacterial pathogens — infection, host colonization, biofilm formation, and molecular characterization.</p>
+  </article>
+</div>
+
+<p><a class="button secondary" href="{{ '/speakers/' | relative_url }}">View All Speakers</a></p>
+
 ## Disease Photo Gallery
 
 <section class="container venue-showcase" aria-label="Disease photo gallery slideshow">
