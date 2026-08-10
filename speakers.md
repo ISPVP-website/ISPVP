@@ -2,7 +2,7 @@
 title: Confirmed Speakers
 hero_kicker: Plenary And Keynotes
 hero_title: International Experts Across Pathosystems
-hero_text: Confirmed invited speakers, with additional invitations being finalized through committee nomination and voting.
+hero_text: Our confirmed invited speakers for ISPVP 2026.
 ---
 
 ## Confirmed Speakers
@@ -37,11 +37,6 @@ hero_text: Confirmed invited speakers, with additional invitations being finaliz
     <tbody>
       <tr><td>Gitta L. Coaker</td><td>Confirmed</td><td>University of California, Davis</td></tr>
       <tr><td>Leonardo De La Fuente</td><td>Confirmed</td><td>Auburn University</td></tr>
-      <tr><td>Additional Invited Speaker</td><td>Pending</td><td>Optional slot based on final budget</td></tr>
     </tbody>
   </table>
-</div>
-
-<div class="notice">
-  <p><strong>Note:</strong> Final invited speaker names and bios will be posted after committee voting and invitation confirmations.</p>
 </div>
