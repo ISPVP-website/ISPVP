@@ -33,6 +33,25 @@ title: ISPVP 2026
   <p style="margin: 0; font-size: 1.3rem; font-weight: 800; letter-spacing: 0.02em; text-transform: uppercase; line-height: 1.35;">Confronting Endemic and Emerging Plant Vascular Pathogens, Insect Vectors, and Diseases Together.</p>
 </div>
 
+## Featured Speakers
+
+<div class="grid two">
+  <article class="card speaker-card">
+    <img class="speaker-photo" src="{{ '/assets/images/speakers/gitta-coaker.jpg' | relative_url }}" alt="Dr. Gitta L. Coaker headshot">
+    <h3>Gitta L. Coaker</h3>
+    <p class="eyebrow">University of California, Davis</p>
+    <p>Kinase-mediated immune signaling and pathogen effector targets, including vector-borne <em>Liberibacter</em> and the vascular pathogen <em>Clavibacter</em>.</p>
+  </article>
+  <article class="card speaker-card">
+    <img class="speaker-photo" src="{{ '/assets/images/speakers/leonardo-de-la-fuente.jpg' | relative_url }}" alt="Dr. Leonardo De La Fuente headshot">
+    <h3>Leonardo De La Fuente</h3>
+    <p class="eyebrow">Auburn University</p>
+    <p>Plant–microbe interactions of bacterial pathogens — infection, host colonization, biofilm formation, and molecular characterization.</p>
+  </article>
+</div>
+
+<p><a class="button secondary" href="{{ '/speakers/' | relative_url }}">View All Speakers</a></p>
+
 <section class="container venue-showcase" aria-label="Venue and destination photo slideshow">
   <div class="venue-showcase-head">
     <p class="eyebrow">Venue Preview</p>
