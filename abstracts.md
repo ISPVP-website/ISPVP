@@ -18,7 +18,7 @@ hero_text: Abstract submission is available to paid participants via a secure li
 <ul class="timeline">
   <li><strong><span class="date">May 1–August 1, 2026</span>:</strong> Early bird registration and abstract submission.</li>
   <li><strong><span class="date">August 2–23, 2026</span>:</strong> General registration and abstract submission.</li>
-  <li><strong><span class="date">August 24–September 25, 2026</span>:</strong> Late registration and poster abstract submission only.</li>
+  <li><strong><span class="date">August 24–September 25, 2026</span>:</strong> Late registration and abstract submission.</li>
 </ul>
 
 ## Abstract Template
