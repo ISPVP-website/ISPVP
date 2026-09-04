@@ -54,6 +54,13 @@ hero_text: Support ISPVP student travel awards and scientific outreach through s
   </p>
 </section>
 
+<section class="card" aria-label="Current Sponsors">
+  <h2>Current Sponsors</h2>
+  <div class="sponsor-logos">
+    <img src="{{ "/assets/images/Sponsor/Sponsor_Logo_RAFT.gif" | relative_url }}" alt="RAFT" class="sponsor-logo">
+  </div>
+</section>
+
 <section class="card docs" aria-label="Sponsorship Flyer">
   <h3>Sponsorship Flyer</h3>
   <div class="pdf-container">

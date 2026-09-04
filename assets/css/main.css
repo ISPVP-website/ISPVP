@@ -678,6 +678,55 @@ summary {
   color: #42606a;
 }
 
+/* Sponsor logos */
+.sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.sponsor-logo {
+  max-height: 560px;
+  max-width: 1200px;
+  width: auto;
+  object-fit: contain;
+  transition: opacity 0.2s;
+}
+
+.sponsor-logo:hover {
+  opacity: 0.85;
+}
+
+/* Footer sponsor strip */
+.sponsor-strip {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding: 1.5rem 0;
+  text-align: center;
+  container: sponsor-strip / inline-size;
+}
+
+.sponsor-strip .eyebrow {
+  margin: 0 0 0.8rem;
+}
+
+.sponsor-strip .sponsor-logos {
+  justify-content: center;
+  margin-top: 0;
+  gap: 1.5rem;
+}
+
+.sponsor-strip .sponsor-logo {
+  max-height: 400px;
+  max-width: 1000px;
+  opacity: 0.9;
+}
+
+.sponsor-strip .sponsor-logo:hover {
+  opacity: 1;
+}
+
 /* Date styling for consistent, prominent dates */
 .date {
   font-weight: 700;
