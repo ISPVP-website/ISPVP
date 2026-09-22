@@ -9,9 +9,14 @@ title: ISPVP 2026
       <h2>3rd International Symposium for Plant Vascular Pathosystems (ISPVP) | October 20–23, 2026 | South Padre Island, Texas</h2>
       <p class="lead">ISPVP convenes a research community focused on vascular pathogen systems,insect vectors and their ecological, molecular, and translational dimensions.</p>
       <div class="hero-cta">
-        <a class="button primary" href="{{ '/registration/' | relative_url }}">Registration Information</a>
+        <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-001" target="_blank" rel="noopener">Register Now</a>
         <a class="button secondary" href="{{ '/abstracts/' | relative_url }}">Abstract Submission Information</a>
         <a class="button secondary" href="{{ '/fundraising/' | relative_url }}">Sponsorship Information</a>
+      </div>
+      <div class="registration-info">
+        <p><strong>Registration Deadline:</strong> <span class="date">September 25, 2026</span></p>
+        <p><strong>Late Registration Fees:</strong> Regular USD 550 | Research Staff USD 450 | Student USD 350</p>
+        <p><a href="{{ '/registration/' | relative_url }}" class="link-inline">View full fee schedule →</a></p>
       </div>
     </div>
     <aside class="panel">

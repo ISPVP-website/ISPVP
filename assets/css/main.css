@@ -910,3 +910,26 @@ summary {
   border: none;
   display: block;
 }
+
+.registration-info {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(31, 93, 77, 0.05);
+  border-left: 4px solid var(--primary);
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.registration-info p {
+  margin: 0.5rem 0;
+}
+
+.registration-info p:last-child {
+  margin-bottom: 0;
+}
+
+.link-inline {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
