@@ -14,7 +14,7 @@ title: ISPVP 2026
         <a class="button secondary" href="{{ '/fundraising/' | relative_url }}">Sponsorship Information</a>
       </div>
       <div class="registration-info">
-        <p><strong>Registration Deadline:</strong> <span class="date">September 25, 2026</span></p>
+        <p><strong>Registration Deadline:</strong> <span class="date">October 5, 2026</span></p>
         <p><strong>Late Registration Fees:</strong> Regular USD 550 | Research Staff USD 450 | Student USD 350</p>
         <p><a href="{{ '/registration/' | relative_url }}" class="link-inline">View full fee schedule →</a></p>
       </div>
@@ -24,7 +24,7 @@ title: ISPVP 2026
       <ul class="timeline">
         <li><strong><span class="date">May 1–August 1, 2026</span></strong><br>Early registration + abstracts</li>
         <li><strong><span class="date">August 2–23, 2026</span></strong><br>General registration + abstracts</li>
-        <li><strong><span class="date">August 24–September 25, 2026</span></strong><br>Late registration + abstracts</li>
+        <li><strong><span class="date">August 24–October 5, 2026</span></strong><br>Late registration + abstracts</li>
         <li><strong><span class="date">October 20–23, 2026</span></strong><br>Symposium dates</li>
       </ul>
     </aside>
