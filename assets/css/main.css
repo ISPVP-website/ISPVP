@@ -732,9 +732,22 @@ summary {
   opacity: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .sponsor-logos {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .sponsor-logos,
+  .sponsor-strip .sponsor-logos {
     grid-template-columns: 1fr;
+  }
+
+  .sponsor-logo,
+  .sponsor-strip .sponsor-logo {
+    max-height: 140px;
+    transform: none;
   }
 }
 
