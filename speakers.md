@@ -21,21 +21,3 @@ hero_text: Our confirmed invited speakers for ISPVP 2026.
     <p>Dr. De La Fuente’s research interests are focused on the interactions between plants and associated microorganisms. Particularly, he is interested in infection processes, host colonization, biofilm formation, and molecular characterization of bacterial plant pathogens. He answers research questions about the biology of pathogenic bacteria using a variety of microbiology and molecular biology techniques, as well as nanotechnology.</p>
   </article>
 </div>
-
-## Invited Speaker Slots
-
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th>Slot</th>
-        <th>Status</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Gitta L. Coaker</td><td>Confirmed</td><td>University of California, Davis</td></tr>
-      <tr><td>Leonardo De La Fuente</td><td>Confirmed</td><td>Auburn University</td></tr>
-    </tbody>
-  </table>
-</div>

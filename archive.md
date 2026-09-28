@@ -16,7 +16,7 @@ ISPVP builds on prior conference strengths while expanding to broader plant vasc
   </article>
   <article class="card">
     <h3>ISPVP 2026 (Upcoming)</h3>
-    <p>South Padre Island, Texas. Expanded scope with seven-session program architecture and international committee governance.</p>
+    <p>South Padre Island, Texas. Four-session scientific program with keynote presentations, invited and selected oral talks, and coordinated poster programming.</p>
   </article>
   <article class="card">
     <h3>ISPVP 2028 (Future Planning)</h3>

@@ -60,10 +60,3 @@ hero_text: ""
     <a class="button secondary" href="{{ '/assets/docs/Register-ISPVP_Final_Flyers.pdf' | relative_url }}" download>Download Flyer (PDF)</a>
   </p>
 </section>
-
-## 2026 Venue Window
-
-- Arrival and registration: <span class="date">Tuesday, October 20, 2026</span>
-- Meeting day 1: <span class="date">Wednesday, October 21, 2026</span>
-- Meeting day 2: <span class="date">Thursday, October 22, 2026</span>
-- Meeting day 3: <span class="date">Friday, October 23, 2026</span>
