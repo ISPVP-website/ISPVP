@@ -680,23 +680,28 @@ summary {
 
 /* Sponsor logos */
 .sponsor-logos {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
   align-items: center;
   margin-top: 1.5rem;
 }
 
 .sponsor-logo {
-  max-height: 560px;
-  max-width: 1200px;
-  width: auto;
+  display: block;
+  width: 100%;
+  max-height: 180px;
   object-fit: contain;
   transition: opacity 0.2s;
 }
 
 .sponsor-logo:hover {
   opacity: 0.85;
+}
+
+.sponsor-logo:nth-child(1),
+.sponsor-logo:nth-child(3) {
+  transform: scale(1.9);
 }
 
 /* Footer sponsor strip */
@@ -712,19 +717,25 @@ summary {
 }
 
 .sponsor-strip .sponsor-logos {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
   margin-top: 0;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .sponsor-strip .sponsor-logo {
-  max-height: 400px;
-  max-width: 1000px;
+  max-height: 105px;
   opacity: 0.9;
 }
 
 .sponsor-strip .sponsor-logo:hover {
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .sponsor-logos {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Date styling for consistent, prominent dates */
