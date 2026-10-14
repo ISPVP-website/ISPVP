@@ -19,9 +19,11 @@ permalink: /tentative-agenda/
 
 ## Scientific Program
 
-- **Wednesday:** Sessions 1 and 2, covering diagnostics and vector biology, and pathogen biology and host–pathogen interactions.
-- **Thursday:** Sessions 3 and 4, covering plant biology and disease tolerance, and genetics, biotechnology, and integrated disease management.
-- **Keynotes:** One keynote presentation is planned for each scientific meeting day.
-- **Posters:** Poster viewing and a networking reception are planned for Wednesday.
+- **Session 1 — Vector Biology, Epidemiology, and Diagnostics:** Wednesday morning, following the opening remarks and keynote presentation.
+- **Session 2 — Molecular Host–Pathogen Interactions and Biotechnology:** Wednesday afternoon, followed by the poster presentation and opening banquet.
+- **Session 3 — Pathogenesis, Plant Physiology, and Disease Tolerance:** Thursday morning, following the keynote presentation.
+- **Session 4 — Integrated Disease and Pest Management Strategies:** Thursday afternoon, followed by networking and the closing banquet.
+- **Keynotes:** Leo De La Fuente opens Wednesday's scientific program; Gitta Coaker opens Thursday's program.
+- **Posters:** Poster setup and uploads take place in the Hibiscus room; poster presentations are scheduled for Wednesday afternoon.
 
-<p>Lunches, dinners, and other scheduled meals are included in the conference program. Detailed times, speaker assignments, presentation titles, and room information will be provided in the official agenda.</p>
+<p>Breakfast, lunch, breaks, banquets, and other scheduled meals are included in the conference program. Detailed speaker assignments, presentation titles, and room information are provided in the draft program and may change before the official agenda is released.</p>
