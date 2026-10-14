@@ -2,8 +2,26 @@
 title: Abstract Submission
 hero_kicker: Call For Papers
 hero_title: Abstract Guidelines And Submission Workflow
-hero_text: Abstract submission is available to paid participants via a secure link emailed after payment confirmation.
+hero_text: Read the electronic abstract book for the 2026 International Symposium for Plant Vascular Pathosystems.
 ---
+
+## 2026 Electronic Abstract Book
+
+<p>The electronic abstract book contains the submitted abstracts arranged in the order of the draft agenda: keynote presentations, oral presentations, and poster presentations. The book may be updated as the program is finalized.</p>
+
+<section class="card abstract-book" aria-labelledby="abstract-book-title">
+  <div>
+    <p class="eyebrow">For attendees</p>
+    <h2 id="abstract-book-title">Scan or open the abstract book</h2>
+    <p>Scan this QR code with your phone camera, or use the button to read the complete PDF online.</p>
+    <p><a class="button primary" href="{{ '/assets/docs/ISPVP-2026-Abstracts.pdf' | relative_url }}">Read the Abstract Book</a></p>
+    <p><a class="button secondary" href="{{ '/assets/docs/ISPVP-2026-Abstracts.pdf' | relative_url }}" download>Download PDF</a></p>
+  </div>
+  <figure class="abstract-qr">
+    <img src="{{ '/assets/images/ispvp-abstracts-qr.png' | relative_url }}" alt="QR code linking to the ISPVP 2026 electronic abstract book">
+    <figcaption>ISPVP 2026 Abstract Book</figcaption>
+  </figure>
+</section>
 
 ## Abstract Requirements
 

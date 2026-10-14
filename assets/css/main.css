@@ -916,7 +916,37 @@ summary {
   }
 }
 
-/* PDF Container Styling */
+/* Abstract book and PDF container styling */
+.abstract-book {
+  display: grid;
+  grid-template-columns: 1fr minmax(150px, 220px);
+  gap: 2rem;
+  align-items: center;
+}
+
+.abstract-qr {
+  margin: 0;
+  text-align: center;
+}
+
+.abstract-qr img {
+  display: block;
+  width: min(100%, 190px);
+  height: auto;
+  margin: 0 auto 0.75rem;
+}
+
+.abstract-qr figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .abstract-book {
+    grid-template-columns: 1fr;
+  }
+}
+
 .pdf-container {
   position: relative;
   width: 100%;
