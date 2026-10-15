@@ -10,6 +10,18 @@ permalink: /tentative-agenda/
 
 <p><a class="button primary" href="{{ '/assets/docs/ISPVP%202026%20%20Agenda.pdf' | relative_url }}" target="_blank" rel="noopener">Open Final Program PDF</a></p>
 
+<section class="card abstract-book" aria-labelledby="agenda-qr-title">
+  <div>
+    <p class="eyebrow">For attendees</p>
+    <h2 id="agenda-qr-title">Scan or open the final program</h2>
+    <p>Scan this QR code with your phone camera to open the official agenda PDF directly.</p>
+  </div>
+  <figure class="abstract-qr">
+    <img src="{{ '/assets/images/ispvp-agenda-qr.png' | relative_url }}" alt="QR code linking directly to the ISPVP 2026 final agenda PDF">
+    <figcaption>ISPVP 2026 Final Program</figcaption>
+  </figure>
+</section>
+
 ## Conference Schedule
 
 <ul class="timeline">

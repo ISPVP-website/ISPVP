@@ -13,7 +13,7 @@ hero_text: Read the electronic abstract book for the 2026 International Symposiu
   <div>
     <p class="eyebrow">For attendees</p>
     <h2 id="abstract-book-title">Scan or open the abstract book</h2>
-    <p>Scan this QR code with your phone camera, or use the button to read the complete PDF online.</p>
+    <p>Scan this QR code with your phone camera, or use the button to read the complete PDF online. The QR code opens the PDF directly.</p>
     <p><a class="button primary" href="{{ '/assets/docs/ISPVP-2026-Abstracts.pdf' | relative_url }}">Read the Abstract Book</a></p>
     <p><a class="button secondary" href="{{ '/assets/docs/ISPVP-2026-Abstracts.pdf' | relative_url }}" download>Download PDF</a></p>
   </div>
