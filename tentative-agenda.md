@@ -1,29 +1,36 @@
 ---
-title: Tentative Agenda
+title: Final Program
 hero_kicker: Program
-hero_title: Tentative Agenda
-hero_text: A preliminary outline for the 3rd International Symposium for Plant Vascular Pathosystems.
+hero_title: Final Program
+hero_text: The official program for the 3rd International Symposium for Plant Vascular Pathosystems.
 permalink: /tentative-agenda/
 ---
 
-<p class="notice"><strong>Preliminary information:</strong> This agenda is tentative. The official program and detailed schedule will be released at a later date.</p>
+<p class="notice"><strong>Official program:</strong> The final agenda is now available. Please review the complete program PDF for the detailed schedule, presentation titles, speakers, poster submissions, locations, and meal arrangements.</p>
 
-## Week Structure
+<p><a class="button primary" href="{{ '/assets/docs/ISPVP%202026%20%20Agenda.pdf' | relative_url }}" target="_blank" rel="noopener">Open Final Program PDF</a></p>
+
+## Conference Schedule
 
 <ul class="timeline">
-  <li><strong><span class="date">Tuesday, October 20, 2026</span></strong><br>Arrival and registration.</li>
-  <li><strong><span class="date">Wednesday, October 21, 2026</span></strong><br>Opening remarks, keynote presentation, Sessions 1 and 2, and poster reception.</li>
-  <li><strong><span class="date">Thursday, October 22, 2026</span></strong><br>Keynote presentation, Sessions 3 and 4, business meeting, and conference dinner and awards.</li>
-  <li><strong><span class="date">Friday, October 23, 2026</span></strong><br>Networking and local activities; conference closes at noon, followed by departures.</li>
+  <li><strong><span class="date">Tuesday, October 20, 2026</span></strong><br>Arrival and registration/check-in, PowerPoint upload, and poster setup from 5:00–7:00 PM in the lobby.</li>
+  <li><strong><span class="date">Wednesday, October 21, 2026</span></strong><br>Opening remarks, keynote presentation by Leonardo De La Fuente, Sessions 1 and 2, poster presentation, and opening banquet dinner.</li>
+  <li><strong><span class="date">Thursday, October 22, 2026</span></strong><br>Keynote presentation by Gitta Coaker, Sessions 3 and 4, networking, and closing banquet dinner.</li>
+  <li><strong><span class="date">Friday, October 23, 2026</span></strong><br>Breakfast, networking and local activities on your own, and conference close by noon.</li>
 </ul>
 
-## Scientific Program
+## Scientific Sessions
 
-- **Session 1 — Vector Biology, Epidemiology, and Diagnostics:** Wednesday morning, following the opening remarks and keynote presentation.
-- **Session 2 — Molecular Host–Pathogen Interactions and Biotechnology:** Wednesday afternoon, followed by the poster presentation and opening banquet.
-- **Session 3 — Pathogenesis, Plant Physiology, and Disease Tolerance:** Thursday morning, following the keynote presentation.
-- **Session 4 — Integrated Disease and Pest Management Strategies:** Thursday afternoon, followed by networking and the closing banquet.
-- **Keynotes:** Leo De La Fuente opens Wednesday's scientific program; Gitta Coaker opens Thursday's program.
-- **Posters:** Poster setup and uploads take place in the Hibiscus room; poster presentations are scheduled for Wednesday afternoon.
+<div class="grid two">
+  <article class="card"><h3>Session 1</h3><p><strong>Vector Biology, Epidemiology, and Diagnostics.</strong> Wednesday morning, following the opening remarks and keynote.</p><p>Introduction: Judith K. Brown, University of Arizona.</p></article>
+  <article class="card"><h3>Session 2</h3><p><strong>Molecular Host–Pathogen Interactions and Biotechnology.</strong> Wednesday afternoon, followed by the poster presentation and opening banquet.</p><p>Introduction: Baoye He, Texas A&amp;M University.</p></article>
+  <article class="card"><h3>Session 3</h3><p><strong>Pathogenesis, Plant Physiology, and Disease Tolerance.</strong> Thursday morning, following the keynote.</p><p>Introduction: Nian Wang, University of Florida.</p></article>
+  <article class="card"><h3>Session 4</h3><p><strong>Integrated Disease and Pest Management Strategies.</strong> Thursday afternoon, followed by networking and the closing banquet.</p><p>Introduction: Ute Albrecht, University of Florida.</p></article>
+</div>
 
-<p>Breakfast, lunch, breaks, banquets, and other scheduled meals are included in the conference program. Detailed speaker assignments, presentation titles, and room information are provided in the draft program and may change before the official agenda is released.</p>
+## Keynote Speakers
+
+- **Leonardo De La Fuente**, Auburn University — *Adaptive strategies of a xylem-limited bacterium for survival in the plant vascular system.*
+- **Gitta Coaker**, University of California, Davis — *Spatial and Structural Strategies of Xylem- and Phloem-Colonizing Bacterial Pathogens.*
+
+<p class="callout">The final PDF also includes the complete speaker schedule, presentation titles, poster submissions, room information, breaks, meals, and contact details. Schedule details are subject to on-site operational needs.</p>

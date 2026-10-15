@@ -25,7 +25,7 @@ title: ISPVP 2026
         <li><strong><span class="date">May 1–August 1, 2026</span></strong><br>Early registration + abstracts</li>
         <li><strong><span class="date">August 2–23, 2026</span></strong><br>General registration + abstracts</li>
         <li><strong><span class="date">August 24–October 5, 2026</span></strong><br>Late registration + abstracts</li>
-        <li><strong><span class="date">October 20–23, 2026</span></strong><br><a href="{{ '/tentative-agenda/' | relative_url }}">Symposium dates · View tentative agenda</a></li>
+        <li><strong><span class="date">October 20–23, 2026</span></strong><br><a href="{{ '/tentative-agenda/' | relative_url }}">Symposium dates · View final program</a></li>
       </ul>
     </aside>
   </div>

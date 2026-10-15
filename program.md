@@ -21,6 +21,8 @@ The scientific program features four sessions held across Wednesday and Thursday
 - Poster viewing and a networking reception on Wednesday afternoon.
 - Networking and a closing dinner on Thursday afternoon and evening.
 
-<p><a class="button secondary" href="{{ '/tentative-agenda/' | relative_url }}">View Tentative Agenda</a></p>
+<p><a class="button primary" href="{{ '/assets/docs/ISPVP%202026%20%20Agenda.pdf' | relative_url }}" target="_blank" rel="noopener">Download Final Program PDF</a></p>
+
+<p><a class="button secondary" href="{{ '/tentative-agenda/' | relative_url }}">View Final Schedule</a></p>
 
 <p><a class="button secondary" href="{{ '/archive/' | relative_url }}">View Program Resources</a></p>
