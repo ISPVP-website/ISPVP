@@ -475,7 +475,10 @@ a:focus-visible {
 }
 
 #third-ispvp-gallery .slide img {
-  object-fit: contain;
+  width: 100%;
+  height: min(70vh, 620px);
+  min-height: 300px;
+  object-fit: contain !important;
   background: color-mix(in srgb, var(--paper) 88%, white 12%);
 }
 
