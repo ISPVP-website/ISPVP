@@ -15,12 +15,12 @@ ISPVP builds on prior conference strengths while expanding to broader plant vasc
     <p>Clearwater Beach, Florida. Legacy congress model with sessions on diagnostics, epidemiology, host-pathogen interactions, and disease management.</p>
   </article>
   <article class="card">
-    <h3>ISPVP 2026 (Upcoming)</h3>
-    <p>South Padre Island, Texas. Four-session scientific program with keynote presentations, invited and selected oral talks, and coordinated poster programming.</p>
+    <h3>3rd ISPVP 2026</h3>
+    <p>South Padre Island, Texas. Successfully concluded with keynote presentations, invited and selected oral talks, poster programming, and valuable opportunities for scientific exchange.</p>
   </article>
   <article class="card">
-    <h3>ISPVP 2028 (Future Planning)</h3>
-    <p>Future congress planning is in progress, with host-site development and scientific framework updates underway.</p>
+    <h3>4th ISPVP (Next Congress)</h3>
+    <p>California, USA. The date and specific venue will be announced when planning is finalized.</p>
   </article>
 </div>
 

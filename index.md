@@ -6,26 +6,23 @@ title: ISPVP 2026
   <div class="container hero-grid">
     <div>
       <p class="eyebrow">Next Congress</p>
-      <h2>3rd International Symposium for Plant Vascular Pathosystems (ISPVP) | October 20–23, 2026 | South Padre Island, Texas</h2>
-      <p class="lead">ISPVP convenes a research community focused on vascular pathogen systems,insect vectors and their ecological, molecular, and translational dimensions.</p>
+      <h2>4th International Symposium for Plant Vascular Pathosystems (ISPVP) | California, USA</h2>
+      <p class="lead">The 3rd ISPVP concluded successfully. We are grateful to all speakers, participants, students, committee members, and partners who made the meeting a memorable scientific gathering.</p>
       <div class="hero-cta">
-        <a class="button primary" href="https://agriliferegister.tamu.edu/wesl-ev-001" target="_blank" rel="noopener">Register Now</a>
-        <a class="button secondary" href="{{ '/abstracts/' | relative_url }}">Abstract Submission Information</a>
-        <a class="button secondary" href="{{ '/fundraising/' | relative_url }}">Sponsorship Information</a>
+        <a class="button primary" href="#third-ispvp-gallery">View 3rd ISPVP Photos</a>
+        <a class="button secondary" href="{{ '/archive/' | relative_url }}">Congress Archive</a>
       </div>
       <div class="registration-info">
-        <p><strong>Registration Deadline:</strong> <span class="date">October 5, 2026</span></p>
-        <p><strong>Late Registration Fees:</strong> Regular USD 550 | Research Staff USD 450 | Student USD 350</p>
-        <p><a href="{{ '/registration/' | relative_url }}" class="link-inline">View full fee schedule →</a></p>
+        <p><strong>4th ISPVP:</strong> California, USA</p>
+        <p><strong>Date and venue:</strong> To be announced</p>
+        <p><a href="{{ '/contact/' | relative_url }}" class="link-inline">Contact us for updates →</a></p>
       </div>
     </div>
     <aside class="panel">
       <p><span class="badge">Important Dates</span></p>
       <ul class="timeline">
-        <li><strong><span class="date">May 1–August 1, 2026</span></strong><br>Early registration + abstracts</li>
-        <li><strong><span class="date">August 2–23, 2026</span></strong><br>General registration + abstracts</li>
-        <li><strong><span class="date">August 24–October 5, 2026</span></strong><br>Late registration + abstracts</li>
-        <li><strong><span class="date">October 20–23, 2026</span></strong><br><a href="{{ '/tentative-agenda/' | relative_url }}">Symposium dates · View final program</a></li>
+        <li><strong>3rd ISPVP</strong><br>Successfully concluded in South Padre Island, Texas</li>
+        <li><strong>4th ISPVP</strong><br>California, USA · Date and venue to be announced</li>
       </ul>
     </aside>
   </div>
@@ -55,6 +52,44 @@ title: ISPVP 2026
 </div>
 
 <p><a class="button secondary" href="{{ '/speakers/' | relative_url }}">More information</a></p>
+
+<section class="container venue-showcase" id="third-ispvp-gallery" aria-label="3rd ISPVP 2026 photo gallery">
+  <div class="venue-showcase-head">
+    <p class="eyebrow">Meeting Highlights</p>
+    <h2>3rd ISPVP 2026 Photo Gallery</h2>
+    <p>The 3rd International Symposium for Plant Vascular Pathosystems brought together researchers, students, and colleagues for scientific exchange and collaboration.</p>
+  </div>
+  <div class="slideshow" data-slideshow>
+    <div class="slides" data-slides>
+      <figure class="slide is-active" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/image-1.png' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Aditiya and Guest.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Ashley and Chi-Kuan.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Baoye He and Qiuni Yang.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Break time.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Chuanyu_Padmasree_Luca_Damodar.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Guest Speaker- Uta Albrecht.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Judy_Jawaad.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Junseong Kang.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Nian_Gitta_Kranthi.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Oral Presentation- Jacobo Robledo 4.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Oral Presentation- Jacobo Robledo 5.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/SPI Conference Group Photo with Students and Committee Members.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Small group.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Ute and Veronica.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Veronica and Sonia.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Alisson Presentation- Audience View.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Audience View.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+      <figure class="slide" data-slide><img src="{{ '/assets/images/gallery/3rd_ISPVP_2026/Mandadi and Daniel.jpg' | relative_url }}" alt="3rd ISPVP 2026 photo"></figure>
+    </div>
+    <button class="slide-control prev" type="button" aria-label="Previous slide" data-slide-prev>Previous</button>
+    <button class="slide-control next" type="button" aria-label="Next slide" data-slide-next>Next</button>
+    <div class="slide-dots" data-slide-dots aria-label="Slide navigation"></div>
+  </div>
+
+  <p class="hero-cta">
+    <a class="button primary" href="https://drive.google.com/drive/folders/1mByXJIswYVT_erz_vDlycWESifc0r-fW?usp=share_link" target="_blank" rel="noopener noreferrer">View All 3rd ISPVP Photos</a>
+  </p>
+</section>
 
 <section class="container venue-showcase" aria-label="Venue and destination photo slideshow">
   <div class="venue-showcase-head">
